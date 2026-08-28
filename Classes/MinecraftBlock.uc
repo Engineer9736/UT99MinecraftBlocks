@@ -41,7 +41,7 @@ class MinecraftBlock extends Decoration;
 #exec AUDIO IMPORT FILE="Sounds\wood3.wav" NAME=MCWood3 GROUP=Minecraft
 #exec AUDIO IMPORT FILE="Sounds\wood4.wav" NAME=MCWood4 GROUP=Minecraft
 
-
+var() float PlaceSoundVolume;
 const GridSize = 64.0;
 var Pawn SpawnedBy;
 var() name PlaceSoundFamily;
@@ -132,77 +132,77 @@ function PlayPlaceSound()
     I = Rand(4);
 
     switch (PlaceSoundFamily)
-    {
-        case 'Cloth':
-            switch (I)
-            {
-                case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCCloth1', SLOT_Misc); break;
-                case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCCloth2', SLOT_Misc); break;
-                case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCCloth3', SLOT_Misc); break;
-                case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCCloth4', SLOT_Misc); break;
-            }
-            break;
+	{
+		case 'Cloth':
+			switch (I)
+			{
+				case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCCloth1', SLOT_Misc, PlaceSoundVolume); break;
+				case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCCloth2', SLOT_Misc, PlaceSoundVolume); break;
+				case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCCloth3', SLOT_Misc, PlaceSoundVolume); break;
+				case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCCloth4', SLOT_Misc, PlaceSoundVolume); break;
+			}
+			break;
 
-        case 'Grass':
-            switch (I)
-            {
-                case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGrass1', SLOT_Misc); break;
-                case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGrass2', SLOT_Misc); break;
-                case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGrass3', SLOT_Misc); break;
-                case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGrass4', SLOT_Misc); break;
-            }
-            break;
+		case 'Grass':
+			switch (I)
+			{
+				case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGrass1', SLOT_Misc, PlaceSoundVolume); break;
+				case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGrass2', SLOT_Misc, PlaceSoundVolume); break;
+				case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGrass3', SLOT_Misc, PlaceSoundVolume); break;
+				case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGrass4', SLOT_Misc, PlaceSoundVolume); break;
+			}
+			break;
 
-        case 'Gravel':
-            switch (I)
-            {
-                case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGravel1', SLOT_Misc); break;
-                case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGravel2', SLOT_Misc); break;
-                case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGravel3', SLOT_Misc); break;
-                case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGravel4', SLOT_Misc); break;
-            }
-            break;
+		case 'Gravel':
+			switch (I)
+			{
+				case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGravel1', SLOT_Misc, PlaceSoundVolume); break;
+				case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGravel2', SLOT_Misc, PlaceSoundVolume); break;
+				case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGravel3', SLOT_Misc, PlaceSoundVolume); break;
+				case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCGravel4', SLOT_Misc, PlaceSoundVolume); break;
+			}
+			break;
 
-        case 'Sand':
-            switch (I)
-            {
-                case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSand1', SLOT_Misc); break;
-                case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSand2', SLOT_Misc); break;
-                case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSand3', SLOT_Misc); break;
-                case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSand4', SLOT_Misc); break;
-            }
-            break;
+		case 'Sand':
+			switch (I)
+			{
+				case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSand1', SLOT_Misc, PlaceSoundVolume); break;
+				case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSand2', SLOT_Misc, PlaceSoundVolume); break;
+				case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSand3', SLOT_Misc, PlaceSoundVolume); break;
+				case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSand4', SLOT_Misc, PlaceSoundVolume); break;
+			}
+			break;
 
-        case 'Snow':
-            switch (I)
-            {
-                case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSnow1', SLOT_Misc); break;
-                case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSnow2', SLOT_Misc); break;
-                case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSnow3', SLOT_Misc); break;
-                case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSnow4', SLOT_Misc); break;
-            }
-            break;
+		case 'Snow':
+			switch (I)
+			{
+				case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSnow1', SLOT_Misc, PlaceSoundVolume); break;
+				case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSnow2', SLOT_Misc, PlaceSoundVolume); break;
+				case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSnow3', SLOT_Misc, PlaceSoundVolume); break;
+				case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCSnow4', SLOT_Misc, PlaceSoundVolume); break;
+			}
+			break;
 
-        case 'Stone':
-            switch (I)
-            {
-                case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCStone1', SLOT_Misc); break;
-                case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCStone2', SLOT_Misc); break;
-                case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCStone3', SLOT_Misc); break;
-                case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCStone4', SLOT_Misc); break;
-            }
-            break;
+		case 'Stone':
+			switch (I)
+			{
+				case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCStone1', SLOT_Misc, PlaceSoundVolume); break;
+				case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCStone2', SLOT_Misc, PlaceSoundVolume); break;
+				case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCStone3', SLOT_Misc, PlaceSoundVolume); break;
+				case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCStone4', SLOT_Misc, PlaceSoundVolume); break;
+			}
+			break;
 
-        case 'Wood':
-            switch (I)
-            {
-                case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCWood1', SLOT_Misc); break;
-                case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCWood2', SLOT_Misc); break;
-                case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCWood3', SLOT_Misc); break;
-                case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCWood4', SLOT_Misc); break;
-            }
-            break;
-    }
+		case 'Wood':
+			switch (I)
+			{
+				case 0: PlaySound(Sound'MinecraftBlocks.Minecraft.MCWood1', SLOT_Misc, PlaceSoundVolume); break;
+				case 1: PlaySound(Sound'MinecraftBlocks.Minecraft.MCWood2', SLOT_Misc, PlaceSoundVolume); break;
+				case 2: PlaySound(Sound'MinecraftBlocks.Minecraft.MCWood3', SLOT_Misc, PlaceSoundVolume); break;
+				case 3: PlaySound(Sound'MinecraftBlocks.Minecraft.MCWood4', SLOT_Misc, PlaceSoundVolume); break;
+			}
+			break;
+	}
 }
 
 defaultproperties
@@ -223,4 +223,5 @@ defaultproperties
     bBlockPlayers=True
 	
 	PlaceSoundFamily=Wood
+	PlaceSoundVolume=2.0
 }
