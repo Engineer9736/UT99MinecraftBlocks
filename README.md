@@ -2,8 +2,10 @@ This project is mostly made by just talking with ChatGPT, taking small steps and
 
 Scripts:
 - mca_to_ini.py - Converts a Minecraft 1.12.2 chunkfile into MinecraftChunk.ini which can be loaded ingame with "summon MinecraftBlocks.MinecraftChunkLoader". Minecraft chunkfiles can be found in [Install dir]\saves\New World\region.
-- generate_textures_to_textures.py - Convert the original Minecraft textures into PCX files that UT understands.
+- generate_textures_to_textures.py - Convert the original Minecraft textures into PCX files that UT understands. The original textures can be found in .minecraft\versions\1.12.2\1.12.2.jar, and then inside this jar in: assets\minecraft\textures\blocks\
 - generate_classes.py - Generate all the block material classes like Cobblestone.uc
+
+- Minecraft sounds can be found in .minecraft\assets\indexes\1.12.json which will give you a hash which is the actual filename of the sound, which is then found in .minecraft\assets\objects\<first 2 hash chars>\<full hash>
 
 Console commands:
 - summon MinecraftBlocks.BlockBuilder - Spawns a weapon which will give you the option to place and break blocks. Blocks always snap onto a grid with the size of themself. Block orientation is locked to 90 degrees depending which direction the player was looking into. Use the console commands MinecraftBlockPrev and MinecraftBlockNext to switch through the Minecraft hotbar. You can assign these commands to any keyboard key with "set input m MinecraftBlockNext" for example.
