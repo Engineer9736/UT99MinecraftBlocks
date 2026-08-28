@@ -1,4 +1,4 @@
-This project is mostly made by just talking with ChatGPT, taking small steps and understanding what the next logic step will be, and making choices on the methodology. This is probably the future of software development anyway.
+This project is mostly made by just talking with ChatGPT, taking small steps and understanding what the next logic step will be, and making choices on the methodology. This is probably the future of software development in any case.
 
 Scripts:
 - mca_to_ini.py - Converts a Minecraft 1.12.2 chunkfile into MinecraftChunk.ini which can be loaded ingame with "summon MinecraftBlocks.MinecraftChunkLoader". Minecraft chunkfiles can be found in [Install dir]\saves\New World\region.
