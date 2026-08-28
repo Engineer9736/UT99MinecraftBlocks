@@ -6,8 +6,8 @@ Scripts:
 - generate_classes.py - Generate all the block material classes like Cobblestone.uc
 
 Console commands:
-summon MinecraftBlocks.BlockBuilder - Spawns a weapon which will give you the option to place and break blocks. Blocks always snap onto a grid with the size of themself. Block orientation is locked to 90 degrees depending which direction the player was looking into.
-summon MinecraftBlocks.MinecraftChunkLoader - Reads MinecraftChunk.ini to generate one chunk of blocks in the UT map.
+- summon MinecraftBlocks.BlockBuilder - Spawns a weapon which will give you the option to place and break blocks. Blocks always snap onto a grid with the size of themself. Block orientation is locked to 90 degrees depending which direction the player was looking into.
+- summon MinecraftBlocks.MinecraftChunkLoader - Reads MinecraftChunk.ini to generate one chunk of blocks in the UT map.
 
 <img width="2500" alt="image" src="https://github.com/user-attachments/assets/54513f30-b249-4266-9cea-38ab5d5b45ca" />
 <img width="3440" height="1440" alt="Shot00058" src="https://github.com/user-attachments/assets/99dcf042-ec13-4e74-b18a-93f137b6c53b" />
