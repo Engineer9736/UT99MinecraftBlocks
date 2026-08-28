@@ -6,4 +6,5 @@ class GreenWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGreenWool'
+    PlaceSoundFamily=Cloth
 }

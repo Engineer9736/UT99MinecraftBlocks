@@ -6,4 +6,5 @@ class MagentaWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCMagentaWool'
+    PlaceSoundFamily=Cloth
 }

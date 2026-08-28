@@ -6,4 +6,5 @@ class RedWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCRedWool'
+    PlaceSoundFamily=Cloth
 }

@@ -6,4 +6,5 @@ class HayBale extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCHayBale'
+    PlaceSoundFamily=Grass
 }

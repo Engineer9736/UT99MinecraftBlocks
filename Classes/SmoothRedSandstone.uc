@@ -6,4 +6,5 @@ class SmoothRedSandstone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSmoothRedSandstone'
+    PlaceSoundFamily=Stone
 }

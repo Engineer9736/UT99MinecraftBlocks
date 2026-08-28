@@ -6,4 +6,5 @@ class NetherWartBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCNetherWartBlock'
+    PlaceSoundFamily=Grass
 }

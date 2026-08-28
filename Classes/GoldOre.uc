@@ -6,4 +6,5 @@ class GoldOre extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGoldOre'
+    PlaceSoundFamily=Stone
 }

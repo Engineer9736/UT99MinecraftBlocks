@@ -6,4 +6,5 @@ class MagentaConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCMagentaConcrete'
+    PlaceSoundFamily=Stone
 }

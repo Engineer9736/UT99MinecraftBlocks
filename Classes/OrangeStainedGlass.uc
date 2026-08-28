@@ -6,5 +6,6 @@ class OrangeStainedGlass extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCOrangeStainedGlass'
+    PlaceSoundFamily=Stone
     Style=STY_Masked
 }

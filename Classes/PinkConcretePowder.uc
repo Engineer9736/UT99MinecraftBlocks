@@ -6,4 +6,5 @@ class PinkConcretePowder extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPinkConcretePowder'
+    PlaceSoundFamily=Sand
 }

@@ -6,5 +6,6 @@ class AcaciaLeaves extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCAcaciaLeaves'
+    PlaceSoundFamily=Grass
     Style=STY_Masked
 }

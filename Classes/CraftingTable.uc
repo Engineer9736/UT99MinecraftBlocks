@@ -6,4 +6,5 @@ class CraftingTable extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCCraftingTable'
+    PlaceSoundFamily=Wood
 }

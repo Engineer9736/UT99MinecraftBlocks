@@ -6,4 +6,5 @@ class SpruceLog extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSpruceLog'
+    PlaceSoundFamily=Wood
 }

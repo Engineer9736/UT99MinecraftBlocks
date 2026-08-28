@@ -6,4 +6,5 @@ class Jukebox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCJukebox'
+    PlaceSoundFamily=Wood
 }

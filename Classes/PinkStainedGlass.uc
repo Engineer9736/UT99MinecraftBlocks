@@ -6,5 +6,6 @@ class PinkStainedGlass extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPinkStainedGlass'
+    PlaceSoundFamily=Stone
     Style=STY_Masked
 }

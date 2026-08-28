@@ -6,4 +6,5 @@ class BlueWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBlueWool'
+    PlaceSoundFamily=Cloth
 }

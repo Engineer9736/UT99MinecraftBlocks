@@ -6,4 +6,5 @@ class LightBlueShulkerBox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLightBlueShulkerBox'
+    PlaceSoundFamily=Stone
 }

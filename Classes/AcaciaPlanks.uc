@@ -6,4 +6,5 @@ class AcaciaPlanks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCAcaciaPlanks'
+    PlaceSoundFamily=Wood
 }

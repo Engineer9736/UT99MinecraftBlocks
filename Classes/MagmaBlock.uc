@@ -6,4 +6,5 @@ class MagmaBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCMagmaBlock'
+    PlaceSoundFamily=Stone
 }

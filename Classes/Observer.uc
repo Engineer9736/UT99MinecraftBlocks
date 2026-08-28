@@ -6,4 +6,5 @@ class Observer extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCObserver'
+    PlaceSoundFamily=Stone
 }

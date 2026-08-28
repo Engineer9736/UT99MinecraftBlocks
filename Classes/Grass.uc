@@ -6,4 +6,5 @@ class Grass extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGrass'
+    PlaceSoundFamily=Grass
 }

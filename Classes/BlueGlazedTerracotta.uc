@@ -6,4 +6,5 @@ class BlueGlazedTerracotta extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBlueGlazedTerracotta'
+    PlaceSoundFamily=Stone
 }

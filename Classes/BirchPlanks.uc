@@ -6,4 +6,5 @@ class BirchPlanks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBirchPlanks'
+    PlaceSoundFamily=Wood
 }

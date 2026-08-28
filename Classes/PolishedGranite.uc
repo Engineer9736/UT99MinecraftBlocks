@@ -6,4 +6,5 @@ class PolishedGranite extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPolishedGranite'
+    PlaceSoundFamily=Stone
 }

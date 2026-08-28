@@ -6,4 +6,5 @@ class GreenShulkerBox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGreenShulkerBox'
+    PlaceSoundFamily=Stone
 }

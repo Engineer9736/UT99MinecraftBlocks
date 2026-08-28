@@ -6,4 +6,5 @@ class PurpurDoubleSlab extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPurpurDoubleSlab'
+    PlaceSoundFamily=Stone
 }

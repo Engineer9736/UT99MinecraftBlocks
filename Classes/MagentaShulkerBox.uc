@@ -6,4 +6,5 @@ class MagentaShulkerBox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCMagentaShulkerBox'
+    PlaceSoundFamily=Stone
 }

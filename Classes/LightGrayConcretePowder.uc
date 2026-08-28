@@ -6,4 +6,5 @@ class LightGrayConcretePowder extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLightGrayConcretePowder'
+    PlaceSoundFamily=Sand
 }

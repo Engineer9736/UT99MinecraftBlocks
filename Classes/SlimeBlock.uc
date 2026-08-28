@@ -6,5 +6,6 @@ class SlimeBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSlimeBlock'
+    PlaceSoundFamily=Grass
     Style=STY_Masked
 }

@@ -6,4 +6,5 @@ class Dispenser extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDispenser'
+    PlaceSoundFamily=Stone
 }

@@ -6,4 +6,5 @@ class RepeatingCommandBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCRepeatingCommandBlock'
+    PlaceSoundFamily=Stone
 }

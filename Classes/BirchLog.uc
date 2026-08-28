@@ -6,4 +6,5 @@ class BirchLog extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBirchLog'
+    PlaceSoundFamily=Wood
 }

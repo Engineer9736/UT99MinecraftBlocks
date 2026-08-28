@@ -6,4 +6,5 @@ class CyanWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCCyanWool'
+    PlaceSoundFamily=Cloth
 }

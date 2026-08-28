@@ -6,4 +6,5 @@ class BrownConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBrownConcrete'
+    PlaceSoundFamily=Stone
 }

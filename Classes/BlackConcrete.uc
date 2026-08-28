@@ -6,4 +6,5 @@ class BlackConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBlackConcrete'
+    PlaceSoundFamily=Stone
 }

@@ -6,4 +6,5 @@ class OrangeConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCOrangeConcrete'
+    PlaceSoundFamily=Stone
 }

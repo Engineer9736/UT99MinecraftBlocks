@@ -6,4 +6,5 @@ class LimeShulkerBox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLimeShulkerBox'
+    PlaceSoundFamily=Stone
 }

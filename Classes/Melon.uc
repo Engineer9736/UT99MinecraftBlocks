@@ -6,4 +6,5 @@ class Melon extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCMelon'
+    PlaceSoundFamily=Grass
 }

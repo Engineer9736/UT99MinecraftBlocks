@@ -6,4 +6,5 @@ class EmeraldOre extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCEmeraldOre'
+    PlaceSoundFamily=Stone
 }

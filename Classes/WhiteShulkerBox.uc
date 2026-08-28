@@ -6,4 +6,5 @@ class WhiteShulkerBox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCWhiteShulkerBox'
+    PlaceSoundFamily=Stone
 }

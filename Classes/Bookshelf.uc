@@ -6,4 +6,5 @@ class Bookshelf extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBookshelf'
+    PlaceSoundFamily=Wood
 }

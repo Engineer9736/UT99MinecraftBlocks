@@ -6,4 +6,5 @@ class CyanConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCCyanConcrete'
+    PlaceSoundFamily=Stone
 }

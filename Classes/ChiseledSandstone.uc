@@ -6,4 +6,5 @@ class ChiseledSandstone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCChiseledSandstone'
+    PlaceSoundFamily=Stone
 }

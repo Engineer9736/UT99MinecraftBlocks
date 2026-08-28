@@ -6,4 +6,5 @@ class CommandBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCCommandBlock'
+    PlaceSoundFamily=Stone
 }

@@ -6,4 +6,5 @@ class CrackedStoneBricks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCCrackedStoneBricks'
+    PlaceSoundFamily=Stone
 }

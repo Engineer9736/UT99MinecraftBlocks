@@ -6,4 +6,5 @@ class WhiteWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCWhiteWool'
+    PlaceSoundFamily=Cloth
 }

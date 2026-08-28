@@ -6,4 +6,5 @@ class RedMushroomBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCRedMushroomBlock'
+    PlaceSoundFamily=Grass
 }

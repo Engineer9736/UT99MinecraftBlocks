@@ -6,4 +6,5 @@ class WhiteConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCWhiteConcrete'
+    PlaceSoundFamily=Stone
 }

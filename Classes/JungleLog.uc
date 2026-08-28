@@ -6,4 +6,5 @@ class JungleLog extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCJungleLog'
+    PlaceSoundFamily=Wood
 }

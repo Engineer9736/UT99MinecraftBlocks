@@ -6,4 +6,5 @@ class InfestedStone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCInfestedStone'
+    PlaceSoundFamily=Stone
 }

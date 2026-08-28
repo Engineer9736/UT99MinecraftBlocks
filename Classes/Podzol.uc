@@ -6,4 +6,5 @@ class Podzol extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPodzol'
+    PlaceSoundFamily=Grass
 }

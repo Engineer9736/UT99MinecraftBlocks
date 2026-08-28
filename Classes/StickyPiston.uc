@@ -6,4 +6,5 @@ class StickyPiston extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCStickyPiston'
+    PlaceSoundFamily=Stone
 }

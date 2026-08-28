@@ -6,4 +6,5 @@ class Sponge extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSponge'
+    PlaceSoundFamily=Grass
 }

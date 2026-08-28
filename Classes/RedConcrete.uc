@@ -6,4 +6,5 @@ class RedConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCRedConcrete'
+    PlaceSoundFamily=Stone
 }

@@ -6,4 +6,5 @@ class YellowWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCYellowWool'
+    PlaceSoundFamily=Cloth
 }

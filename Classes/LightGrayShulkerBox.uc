@@ -6,4 +6,5 @@ class LightGrayShulkerBox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLightGrayShulkerBox'
+    PlaceSoundFamily=Stone
 }

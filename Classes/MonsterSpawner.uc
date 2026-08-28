@@ -6,5 +6,6 @@ class MonsterSpawner extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCMonsterSpawner'
+    PlaceSoundFamily=Stone
     Style=STY_Masked
 }

@@ -6,4 +6,5 @@ class DiamondBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDiamondBlock'
+    PlaceSoundFamily=Stone
 }

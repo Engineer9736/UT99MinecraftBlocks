@@ -6,4 +6,5 @@ class ChainCommandBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCChainCommandBlock'
+    PlaceSoundFamily=Stone
 }

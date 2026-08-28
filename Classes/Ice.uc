@@ -6,5 +6,6 @@ class Ice extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCIce'
+    PlaceSoundFamily=Snow
     Style=STY_Masked
 }

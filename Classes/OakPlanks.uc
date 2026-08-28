@@ -6,4 +6,5 @@ class OakPlanks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCOakPlanks'
+    PlaceSoundFamily=Wood
 }

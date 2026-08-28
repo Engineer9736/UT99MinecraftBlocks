@@ -6,4 +6,5 @@ class DarkOakPlanks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDarkOakPlanks'
+    PlaceSoundFamily=Wood
 }

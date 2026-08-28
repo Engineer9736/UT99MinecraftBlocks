@@ -6,4 +6,5 @@ class GlowingRedstoneOre extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGlowingRedstoneOre'
+    PlaceSoundFamily=Stone
 }

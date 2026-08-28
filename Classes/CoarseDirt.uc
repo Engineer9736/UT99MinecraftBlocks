@@ -6,4 +6,5 @@ class CoarseDirt extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCCoarseDirt'
+    PlaceSoundFamily=Grass
 }

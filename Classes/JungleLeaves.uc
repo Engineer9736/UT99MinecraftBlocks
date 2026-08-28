@@ -6,5 +6,6 @@ class JungleLeaves extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCJungleLeaves'
+    PlaceSoundFamily=Grass
     Style=STY_Masked
 }

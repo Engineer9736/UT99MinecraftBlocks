@@ -6,4 +6,5 @@ class Dropper extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDropper'
+    PlaceSoundFamily=Stone
 }

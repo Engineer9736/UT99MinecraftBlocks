@@ -6,4 +6,5 @@ class Clay extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCClay'
+    PlaceSoundFamily=Stone
 }

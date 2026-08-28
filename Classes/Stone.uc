@@ -6,4 +6,5 @@ class Stone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCStone'
+    PlaceSoundFamily=Stone
 }

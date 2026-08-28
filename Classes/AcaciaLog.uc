@@ -6,4 +6,5 @@ class AcaciaLog extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCAcaciaLog'
+    PlaceSoundFamily=Wood
 }

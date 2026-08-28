@@ -6,4 +6,5 @@ class SnowBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSnowBlock'
+    PlaceSoundFamily=Snow
 }

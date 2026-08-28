@@ -6,4 +6,5 @@ class Sandstone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSandstone'
+    PlaceSoundFamily=Stone
 }

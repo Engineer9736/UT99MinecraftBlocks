@@ -6,4 +6,5 @@ class Prismarine extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPrismarine'
+    PlaceSoundFamily=Stone
 }

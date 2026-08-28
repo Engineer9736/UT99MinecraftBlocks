@@ -6,4 +6,5 @@ class LapisOre extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLapisOre'
+    PlaceSoundFamily=Stone
 }

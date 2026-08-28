@@ -6,5 +6,6 @@ class BlackStainedGlass extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBlackStainedGlass'
+    PlaceSoundFamily=Stone
     Style=STY_Masked
 }

@@ -6,4 +6,5 @@ class LimeGlazedTerracotta extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLimeGlazedTerracotta'
+    PlaceSoundFamily=Stone
 }

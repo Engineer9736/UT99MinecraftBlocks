@@ -6,4 +6,5 @@ class LapisBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLapisBlock'
+    PlaceSoundFamily=Stone
 }

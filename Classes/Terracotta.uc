@@ -6,4 +6,5 @@ class Terracotta extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCTerracotta'
+    PlaceSoundFamily=Stone
 }

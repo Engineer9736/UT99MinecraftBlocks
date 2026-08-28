@@ -6,4 +6,5 @@ class MossyCobblestone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCMossyCobblestone'
+    PlaceSoundFamily=Stone
 }

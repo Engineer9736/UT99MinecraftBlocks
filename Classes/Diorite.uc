@@ -6,4 +6,5 @@ class Diorite extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDiorite'
+    PlaceSoundFamily=Stone
 }

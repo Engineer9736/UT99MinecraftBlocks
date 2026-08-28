@@ -6,4 +6,5 @@ class DoubleNetherBrickSlab extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDoubleNetherBrickSlab'
+    PlaceSoundFamily=Stone
 }

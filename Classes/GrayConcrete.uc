@@ -6,4 +6,5 @@ class GrayConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGrayConcrete'
+    PlaceSoundFamily=Stone
 }

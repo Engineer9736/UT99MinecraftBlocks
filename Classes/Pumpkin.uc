@@ -6,4 +6,5 @@ class Pumpkin extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPumpkin'
+    PlaceSoundFamily=Grass
 }

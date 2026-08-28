@@ -6,4 +6,5 @@ class YellowConcretePowder extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCYellowConcretePowder'
+    PlaceSoundFamily=Sand
 }

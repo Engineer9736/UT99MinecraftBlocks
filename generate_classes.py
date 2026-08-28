@@ -4,33 +4,13 @@ Generate one UnrealScript subclass per Minecraft block.
 
 This script NEVER modifies Classes\MinecraftBlock.uc.
 
-Expected layout:
+Each generated class gets:
+  - its own texture import
+  - Skin=...
+  - PlaceSoundFamily=...
 
-    MinecraftBlocks\
-        generate_classes.py
-        blocklist_names.txt
-        generated_manifest.json   (optional)
-        Textures\
-            MCStone.pcx
-            MCGrass.pcx
-            ...
-        Classes\
-            MinecraftBlock.uc
-            ...
-
-Each generated class gets its own texture import, for example:
-
-    class Grass extends MinecraftBlock;
-
-    #exec TEXTURE IMPORT NAME=MCGrass FILE="Textures\MCGrass.pcx" GROUP=Minecraft
-
-    defaultproperties
-    {
-        Skin=Texture'MinecraftBlocks.Minecraft.MCGrass'
-    }
-
-Run:
-    python generate_classes.py
+Supported sound families:
+  Cloth, Grass, Gravel, Sand, Snow, Stone, Wood
 """
 
 from __future__ import annotations
@@ -38,7 +18,6 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
-
 
 BASE_DIR = Path(__file__).resolve().parent
 CLASSES_DIR = BASE_DIR / "Classes"
@@ -62,7 +41,6 @@ def load_block_names() -> list[str]:
             if line.strip()
         ]
 
-    # Fallback: use the keys from texturemap.json.
     if TEXTUREMAP_FILE.exists():
         data = json.loads(TEXTUREMAP_FILE.read_text(encoding="utf-8"))
         blocks = data.get("blocks", {})
@@ -102,8 +80,44 @@ def block_is_masked(block_name: str, manifest: dict) -> bool:
     return bool(entry.get("transparent", False))
 
 
+def infer_sound_family(name: str) -> str:
+    if name.endswith("Wool"):
+        return "Cloth"
+
+    if name in {
+        "Grass", "Dirt", "CoarseDirt", "Podzol", "Mycelium",
+        "HayBale", "Melon", "Pumpkin", "JackOLantern",
+        "BrownMushroomBlock", "RedMushroomBlock",
+        "NetherWartBlock", "SlimeBlock", "Sponge", "WetSponge",
+    }:
+        return "Grass"
+
+    if name.endswith("Leaves"):
+        return "Grass"
+
+    if name == "Gravel":
+        return "Gravel"
+
+    if name in {"Sand", "RedSand"} or name.endswith("ConcretePowder"):
+        return "Sand"
+
+    if name in {"SnowBlock", "Ice", "PackedIce", "FrostedIce"}:
+        return "Snow"
+
+    if (
+        name.endswith("Planks")
+        or name.endswith("Log")
+        or name.endswith("WoodSlab")
+        or name in {"Bookshelf", "CraftingTable", "Jukebox", "NoteBlock", "TNT"}
+    ):
+        return "Wood"
+
+    return "Stone"
+
+
 def generate_class(block_name: str, masked: bool) -> str:
     tex_name = texture_name(block_name)
+    sound_family = infer_sound_family(block_name)
 
     lines = [
         GENERATED_CLASS_MARKER,
@@ -114,16 +128,13 @@ def generate_class(block_name: str, masked: bool) -> str:
         "defaultproperties",
         "{",
         f"    Skin=Texture'{PACKAGE_NAME}.{TEXTURE_GROUP}.{tex_name}'",
+        f"    PlaceSoundFamily={sound_family}",
     ]
 
     if masked:
         lines.append("    Style=STY_Masked")
 
-    lines += [
-        "}",
-        "",
-    ]
-
+    lines += ["}", ""]
     return "\n".join(lines)
 
 
@@ -141,41 +152,27 @@ def main() -> int:
             print(f"  {name}")
         return 1
 
-    duplicates = sorted({
-        name for name in block_names
-        if block_names.count(name) > 1
-    })
-    if duplicates:
-        print("ERROR: Duplicate block names:")
-        for name in duplicates:
-            print(f"  {name}")
-        return 1
-
     missing = [
         texture_filename(name)
         for name in block_names
         if not (TEXTURES_DIR / texture_filename(name)).exists()
     ]
     if missing:
-        print(f"ERROR: {len(missing)} texture file(s) are missing:")
+        print(f"ERROR: {len(missing)} texture file(s) are missing.")
         for filename in missing[:30]:
             print(f"  {filename}")
-        if len(missing) > 30:
-            print(f"  ... and {len(missing) - 30} more")
-        print()
-        print("Run generate_textures.py first.")
         return 1
 
     CLASSES_DIR.mkdir(parents=True, exist_ok=True)
     manifest = load_manifest()
 
+    family_counts = {}
     generated = 0
     masked_count = 0
 
     for block_name in block_names:
         out_file = CLASSES_DIR / f"{block_name}.uc"
 
-        # Do not overwrite hand-written classes accidentally.
         if out_file.exists():
             existing = out_file.read_text(encoding="utf-8", errors="replace")
             if GENERATED_CLASS_MARKER not in existing:
@@ -185,6 +182,9 @@ def main() -> int:
         masked = block_is_masked(block_name, manifest)
         if masked:
             masked_count += 1
+
+        family = infer_sound_family(block_name)
+        family_counts[family] = family_counts.get(family, 0) + 1
 
         out_file.write_text(
             generate_class(block_name, masked),
@@ -198,10 +198,9 @@ def main() -> int:
     print("MinecraftBlock.uc was NOT modified.")
     print(f"Masked subclasses: {masked_count}")
     print()
-    print("Example:")
-    print(f"  summon {PACKAGE_NAME}.Grass")
-    print()
-    print("You can now run ucc make.")
+    print("Sound families:")
+    for family in ["Cloth", "Grass", "Gravel", "Sand", "Snow", "Stone", "Wood"]:
+        print(f"  {family}: {family_counts.get(family, 0)}")
 
     return 0
 

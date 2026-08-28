@@ -6,4 +6,5 @@ class Sand extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSand'
+    PlaceSoundFamily=Sand
 }

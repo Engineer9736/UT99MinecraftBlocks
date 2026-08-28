@@ -6,4 +6,5 @@ class Furnace extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCFurnace'
+    PlaceSoundFamily=Stone
 }

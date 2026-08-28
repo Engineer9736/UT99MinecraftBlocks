@@ -6,4 +6,5 @@ class PurpurBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPurpurBlock'
+    PlaceSoundFamily=Stone
 }

@@ -6,4 +6,5 @@ class OrangeWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCOrangeWool'
+    PlaceSoundFamily=Cloth
 }

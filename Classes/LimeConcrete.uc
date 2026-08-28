@@ -6,4 +6,5 @@ class LimeConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLimeConcrete'
+    PlaceSoundFamily=Stone
 }

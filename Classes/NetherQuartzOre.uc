@@ -6,4 +6,5 @@ class NetherQuartzOre extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCNetherQuartzOre'
+    PlaceSoundFamily=Stone
 }

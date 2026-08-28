@@ -6,4 +6,5 @@ class Granite extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGranite'
+    PlaceSoundFamily=Stone
 }

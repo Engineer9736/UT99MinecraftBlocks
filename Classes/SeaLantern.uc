@@ -6,4 +6,5 @@ class SeaLantern extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSeaLantern'
+    PlaceSoundFamily=Stone
 }

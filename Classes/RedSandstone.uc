@@ -6,4 +6,5 @@ class RedSandstone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCRedSandstone'
+    PlaceSoundFamily=Stone
 }

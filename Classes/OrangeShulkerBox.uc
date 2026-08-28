@@ -6,4 +6,5 @@ class OrangeShulkerBox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCOrangeShulkerBox'
+    PlaceSoundFamily=Stone
 }

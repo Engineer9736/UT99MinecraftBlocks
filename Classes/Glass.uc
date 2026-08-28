@@ -6,5 +6,6 @@ class Glass extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGlass'
+    PlaceSoundFamily=Stone
     Style=STY_Masked
 }

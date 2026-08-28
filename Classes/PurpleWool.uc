@@ -6,4 +6,5 @@ class PurpleWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPurpleWool'
+    PlaceSoundFamily=Cloth
 }

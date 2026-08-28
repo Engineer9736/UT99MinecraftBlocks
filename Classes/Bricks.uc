@@ -6,4 +6,5 @@ class Bricks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBricks'
+    PlaceSoundFamily=Stone
 }

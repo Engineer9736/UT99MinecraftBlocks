@@ -6,4 +6,5 @@ class LimeWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLimeWool'
+    PlaceSoundFamily=Cloth
 }

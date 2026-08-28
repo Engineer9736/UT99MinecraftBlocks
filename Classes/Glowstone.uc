@@ -6,4 +6,5 @@ class Glowstone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGlowstone'
+    PlaceSoundFamily=Stone
 }

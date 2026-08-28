@@ -6,4 +6,5 @@ class PolishedAndesite extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPolishedAndesite'
+    PlaceSoundFamily=Stone
 }

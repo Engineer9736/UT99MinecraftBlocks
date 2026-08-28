@@ -6,4 +6,5 @@ class IronOre extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCIronOre'
+    PlaceSoundFamily=Stone
 }

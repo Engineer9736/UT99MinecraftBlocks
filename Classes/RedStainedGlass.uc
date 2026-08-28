@@ -6,5 +6,6 @@ class RedStainedGlass extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCRedStainedGlass'
+    PlaceSoundFamily=Stone
     Style=STY_Masked
 }

@@ -6,4 +6,5 @@ class SprucePlanks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSprucePlanks'
+    PlaceSoundFamily=Wood
 }

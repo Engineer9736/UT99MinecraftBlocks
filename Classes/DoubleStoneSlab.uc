@@ -6,4 +6,5 @@ class DoubleStoneSlab extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDoubleStoneSlab'
+    PlaceSoundFamily=Stone
 }

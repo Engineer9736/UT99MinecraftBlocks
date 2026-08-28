@@ -6,4 +6,5 @@ class RedSand extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCRedSand'
+    PlaceSoundFamily=Sand
 }

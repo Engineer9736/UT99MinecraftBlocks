@@ -6,4 +6,5 @@ class Obsidian extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCObsidian'
+    PlaceSoundFamily=Stone
 }

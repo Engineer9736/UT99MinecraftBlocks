@@ -6,4 +6,5 @@ class PinkConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPinkConcrete'
+    PlaceSoundFamily=Stone
 }

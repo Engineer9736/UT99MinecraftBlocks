@@ -6,4 +6,5 @@ class GoldBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGoldBlock'
+    PlaceSoundFamily=Stone
 }

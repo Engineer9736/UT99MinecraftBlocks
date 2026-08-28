@@ -6,4 +6,5 @@ class PackedIce extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPackedIce'
+    PlaceSoundFamily=Snow
 }

@@ -6,4 +6,5 @@ class Dirt extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDirt'
+    PlaceSoundFamily=Grass
 }

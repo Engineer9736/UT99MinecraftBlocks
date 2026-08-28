@@ -6,4 +6,5 @@ class MagentaTerracotta extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCMagentaTerracotta'
+    PlaceSoundFamily=Stone
 }

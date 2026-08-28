@@ -6,4 +6,5 @@ class LimeConcretePowder extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLimeConcretePowder'
+    PlaceSoundFamily=Sand
 }

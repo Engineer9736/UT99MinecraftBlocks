@@ -6,4 +6,5 @@ class Bedrock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBedrock'
+    PlaceSoundFamily=Stone
 }

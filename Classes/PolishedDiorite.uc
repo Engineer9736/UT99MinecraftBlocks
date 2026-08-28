@@ -6,4 +6,5 @@ class PolishedDiorite extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPolishedDiorite'
+    PlaceSoundFamily=Stone
 }

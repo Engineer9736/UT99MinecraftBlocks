@@ -6,4 +6,5 @@ class Andesite extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCAndesite'
+    PlaceSoundFamily=Stone
 }

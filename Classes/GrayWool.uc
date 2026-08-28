@@ -6,4 +6,5 @@ class GrayWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGrayWool'
+    PlaceSoundFamily=Cloth
 }

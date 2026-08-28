@@ -6,4 +6,5 @@ class DarkPrismarine extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDarkPrismarine'
+    PlaceSoundFamily=Stone
 }

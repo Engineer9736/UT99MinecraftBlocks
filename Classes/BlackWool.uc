@@ -6,4 +6,5 @@ class BlackWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBlackWool'
+    PlaceSoundFamily=Cloth
 }

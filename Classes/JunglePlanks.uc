@@ -6,4 +6,5 @@ class JunglePlanks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCJunglePlanks'
+    PlaceSoundFamily=Wood
 }

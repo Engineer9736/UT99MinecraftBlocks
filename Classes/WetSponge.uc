@@ -6,4 +6,5 @@ class WetSponge extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCWetSponge'
+    PlaceSoundFamily=Grass
 }

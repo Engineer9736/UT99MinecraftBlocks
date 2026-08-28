@@ -6,4 +6,5 @@ class InfestedMossyStoneBricks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCInfestedMossyStoneBricks'
+    PlaceSoundFamily=Stone
 }

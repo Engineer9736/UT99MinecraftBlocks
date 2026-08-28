@@ -6,4 +6,5 @@ class IronBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCIronBlock'
+    PlaceSoundFamily=Stone
 }

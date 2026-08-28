@@ -6,4 +6,5 @@ class InfestedCobblestone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCInfestedCobblestone'
+    PlaceSoundFamily=Stone
 }

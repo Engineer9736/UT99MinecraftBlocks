@@ -6,4 +6,5 @@ class JackOLantern extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCJackOLantern'
+    PlaceSoundFamily=Grass
 }

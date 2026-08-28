@@ -6,4 +6,5 @@ class Piston extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPiston'
+    PlaceSoundFamily=Stone
 }

@@ -6,4 +6,5 @@ class LightBlueConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLightBlueConcrete'
+    PlaceSoundFamily=Stone
 }

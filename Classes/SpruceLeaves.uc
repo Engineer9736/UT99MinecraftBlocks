@@ -6,5 +6,6 @@ class SpruceLeaves extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCSpruceLeaves'
+    PlaceSoundFamily=Grass
     Style=STY_Masked
 }

@@ -6,4 +6,5 @@ class DarkOakLog extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDarkOakLog'
+    PlaceSoundFamily=Wood
 }

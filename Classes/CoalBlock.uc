@@ -6,4 +6,5 @@ class CoalBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCCoalBlock'
+    PlaceSoundFamily=Stone
 }

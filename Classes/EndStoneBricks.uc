@@ -6,4 +6,5 @@ class EndStoneBricks extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCEndStoneBricks'
+    PlaceSoundFamily=Stone
 }

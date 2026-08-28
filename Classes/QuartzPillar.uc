@@ -6,4 +6,5 @@ class QuartzPillar extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCQuartzPillar'
+    PlaceSoundFamily=Stone
 }

@@ -6,5 +6,6 @@ class BirchLeaves extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBirchLeaves'
+    PlaceSoundFamily=Grass
     Style=STY_Masked
 }

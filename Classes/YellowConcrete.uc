@@ -6,4 +6,5 @@ class YellowConcrete extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCYellowConcrete'
+    PlaceSoundFamily=Stone
 }

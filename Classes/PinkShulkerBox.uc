@@ -6,4 +6,5 @@ class PinkShulkerBox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPinkShulkerBox'
+    PlaceSoundFamily=Stone
 }

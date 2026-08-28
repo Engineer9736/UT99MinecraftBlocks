@@ -6,5 +6,6 @@ class FrostedIce extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCFrostedIce'
+    PlaceSoundFamily=Snow
     Style=STY_Masked
 }

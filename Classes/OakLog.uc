@@ -6,4 +6,5 @@ class OakLog extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCOakLog'
+    PlaceSoundFamily=Wood
 }

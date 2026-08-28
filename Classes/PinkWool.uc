@@ -6,4 +6,5 @@ class PinkWool extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPinkWool'
+    PlaceSoundFamily=Cloth
 }

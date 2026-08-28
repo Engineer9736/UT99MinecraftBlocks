@@ -6,4 +6,5 @@ class Netherrack extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCNetherrack'
+    PlaceSoundFamily=Stone
 }

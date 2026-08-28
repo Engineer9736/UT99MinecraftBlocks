@@ -6,4 +6,5 @@ class LitRedstoneLamp extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLitRedstoneLamp'
+    PlaceSoundFamily=Stone
 }

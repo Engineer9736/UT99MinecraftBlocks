@@ -6,5 +6,6 @@ class LimeStainedGlass extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCLimeStainedGlass'
+    PlaceSoundFamily=Stone
     Style=STY_Masked
 }

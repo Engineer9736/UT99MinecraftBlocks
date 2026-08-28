@@ -6,4 +6,5 @@ class BoneBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBoneBlock'
+    PlaceSoundFamily=Stone
 }

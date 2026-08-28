@@ -6,4 +6,5 @@ class DoubleBirchWoodSlab extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDoubleBirchWoodSlab'
+    PlaceSoundFamily=Wood
 }

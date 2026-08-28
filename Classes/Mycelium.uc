@@ -6,4 +6,5 @@ class Mycelium extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCMycelium'
+    PlaceSoundFamily=Grass
 }

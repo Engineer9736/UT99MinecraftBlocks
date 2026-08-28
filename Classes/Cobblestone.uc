@@ -6,4 +6,5 @@ class Cobblestone extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCCobblestone'
+    PlaceSoundFamily=Stone
 }

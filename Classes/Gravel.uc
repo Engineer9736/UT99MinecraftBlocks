@@ -6,4 +6,5 @@ class Gravel extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCGravel'
+    PlaceSoundFamily=Gravel
 }

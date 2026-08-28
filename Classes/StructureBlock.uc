@@ -6,4 +6,5 @@ class StructureBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCStructureBlock'
+    PlaceSoundFamily=Stone
 }

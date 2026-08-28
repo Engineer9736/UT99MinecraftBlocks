@@ -6,5 +6,6 @@ class OakLeaves extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCOakLeaves'
+    PlaceSoundFamily=Grass
     Style=STY_Masked
 }

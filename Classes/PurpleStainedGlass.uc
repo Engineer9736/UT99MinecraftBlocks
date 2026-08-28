@@ -6,5 +6,6 @@ class PurpleStainedGlass extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPurpleStainedGlass'
+    PlaceSoundFamily=Stone
     Style=STY_Masked
 }

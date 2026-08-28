@@ -6,4 +6,5 @@ class BlackShulkerBox extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCBlackShulkerBox'
+    PlaceSoundFamily=Stone
 }

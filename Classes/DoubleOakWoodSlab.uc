@@ -6,4 +6,5 @@ class DoubleOakWoodSlab extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCDoubleOakWoodSlab'
+    PlaceSoundFamily=Wood
 }

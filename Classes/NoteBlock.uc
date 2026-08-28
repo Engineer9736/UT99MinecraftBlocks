@@ -6,4 +6,5 @@ class NoteBlock extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCNoteBlock'
+    PlaceSoundFamily=Wood
 }

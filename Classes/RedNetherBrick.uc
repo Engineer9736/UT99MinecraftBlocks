@@ -6,4 +6,5 @@ class RedNetherBrick extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCRedNetherBrick'
+    PlaceSoundFamily=Stone
 }

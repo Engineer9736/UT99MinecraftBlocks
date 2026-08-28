@@ -6,4 +6,5 @@ class PurpleTerracotta extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCPurpleTerracotta'
+    PlaceSoundFamily=Stone
 }

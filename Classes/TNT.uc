@@ -6,4 +6,5 @@ class TNT extends MinecraftBlock;
 defaultproperties
 {
     Skin=Texture'MinecraftBlocks.Minecraft.MCTNT'
+    PlaceSoundFamily=Wood
 }
