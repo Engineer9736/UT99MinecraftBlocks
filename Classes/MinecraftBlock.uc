@@ -91,14 +91,17 @@ function PostBeginPlay()
     GridLocation.Y = SnapToGrid(Location.Y);
     GridLocation.Z = SnapToGrid(Location.Z);
 
-    foreach AllActors(class'MinecraftBlock', B)
-    {
-        if (B != Self && SameGridSlot(B.Location, GridLocation))
-        {
-            B.Destroy();
-            break;
-        }
-    }
+    if (MinecraftChunkLoader(Owner) == None)
+	{
+		foreach AllActors(class'MinecraftBlock', B)
+		{
+			if (B != Self && SameGridSlot(B.Location, GridLocation))
+			{
+				B.Destroy();
+				break;
+			}
+		}
+	}
 
     GridRotation.Pitch = 0;
     GridRotation.Yaw   = SnapRotation90(Rotation.Yaw);
