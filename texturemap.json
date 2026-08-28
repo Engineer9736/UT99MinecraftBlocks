@@ -1,0 +1,1073 @@
+{
+  "_meta": {
+    "minecraft_version": "1.12.2",
+    "block_count": 250,
+    "notes": [
+      "Face names are for the custom UT cube atlas.",
+      "An 'all' entry means use the same PNG on all six faces.",
+      "Grass/leaves retain a tint hint because Minecraft colors these at runtime.",
+      "Animated PNG strips should use their first 16x16 frame unless the converter implements animation.",
+      "Shulker boxes cannot be reconstructed fully from assets/minecraft/textures/blocks alone."
+    ]
+  },
+  "blocks": {
+    "Stone": {
+      "all": "stone.png"
+    },
+    "Granite": {
+      "all": "stone_granite.png"
+    },
+    "PolishedGranite": {
+      "all": "stone_granite_smooth.png"
+    },
+    "Diorite": {
+      "all": "stone_diorite.png"
+    },
+    "PolishedDiorite": {
+      "all": "stone_diorite_smooth.png"
+    },
+    "Andesite": {
+      "all": "stone_andesite.png"
+    },
+    "PolishedAndesite": {
+      "all": "stone_andesite_smooth.png"
+    },
+    "Grass": {
+      "top": "grass_top.png",
+      "bottom": "dirt.png",
+      "front": "grass_side.png",
+      "back": "grass_side.png",
+      "left": "grass_side.png",
+      "right": "grass_side.png",
+      "tint": "grass"
+    },
+    "Dirt": {
+      "all": "dirt.png"
+    },
+    "CoarseDirt": {
+      "all": "coarse_dirt.png"
+    },
+    "Podzol": {
+      "top": "dirt_podzol_top.png",
+      "bottom": "dirt.png",
+      "front": "dirt_podzol_side.png",
+      "back": "dirt_podzol_side.png",
+      "left": "dirt_podzol_side.png",
+      "right": "dirt_podzol_side.png"
+    },
+    "Cobblestone": {
+      "all": "cobblestone.png"
+    },
+    "OakPlanks": {
+      "all": "planks_oak.png"
+    },
+    "SprucePlanks": {
+      "all": "planks_spruce.png"
+    },
+    "BirchPlanks": {
+      "all": "planks_birch.png"
+    },
+    "JunglePlanks": {
+      "all": "planks_jungle.png"
+    },
+    "AcaciaPlanks": {
+      "all": "planks_acacia.png"
+    },
+    "DarkOakPlanks": {
+      "all": "planks_big_oak.png"
+    },
+    "Bedrock": {
+      "all": "bedrock.png"
+    },
+    "Sand": {
+      "all": "sand.png"
+    },
+    "RedSand": {
+      "all": "red_sand.png"
+    },
+    "Gravel": {
+      "all": "gravel.png"
+    },
+    "GoldOre": {
+      "all": "gold_ore.png"
+    },
+    "IronOre": {
+      "all": "iron_ore.png"
+    },
+    "CoalOre": {
+      "all": "coal_ore.png"
+    },
+    "OakLog": {
+      "top": "log_oak_top.png",
+      "bottom": "log_oak_top.png",
+      "front": "log_oak.png",
+      "back": "log_oak.png",
+      "left": "log_oak.png",
+      "right": "log_oak.png"
+    },
+    "SpruceLog": {
+      "top": "log_spruce_top.png",
+      "bottom": "log_spruce_top.png",
+      "front": "log_spruce.png",
+      "back": "log_spruce.png",
+      "left": "log_spruce.png",
+      "right": "log_spruce.png"
+    },
+    "BirchLog": {
+      "top": "log_birch_top.png",
+      "bottom": "log_birch_top.png",
+      "front": "log_birch.png",
+      "back": "log_birch.png",
+      "left": "log_birch.png",
+      "right": "log_birch.png"
+    },
+    "JungleLog": {
+      "top": "log_jungle_top.png",
+      "bottom": "log_jungle_top.png",
+      "front": "log_jungle.png",
+      "back": "log_jungle.png",
+      "left": "log_jungle.png",
+      "right": "log_jungle.png"
+    },
+    "OakLeaves": {
+      "all": "leaves_oak.png",
+      "tint": "leaves"
+    },
+    "SpruceLeaves": {
+      "all": "leaves_spruce.png",
+      "tint": "leaves"
+    },
+    "BirchLeaves": {
+      "all": "leaves_birch.png",
+      "tint": "leaves"
+    },
+    "JungleLeaves": {
+      "all": "leaves_jungle.png",
+      "tint": "leaves"
+    },
+    "Sponge": {
+      "all": "sponge.png"
+    },
+    "WetSponge": {
+      "all": "sponge_wet.png"
+    },
+    "Glass": {
+      "all": "glass.png"
+    },
+    "LapisOre": {
+      "all": "lapis_ore.png"
+    },
+    "LapisBlock": {
+      "all": "lapis_block.png"
+    },
+    "Dispenser": {
+      "top": "furnace_top.png",
+      "bottom": "furnace_top.png",
+      "front": "dispenser_front_horizontal.png",
+      "back": "furnace_side.png",
+      "left": "furnace_side.png",
+      "right": "furnace_side.png"
+    },
+    "Sandstone": {
+      "top": "sandstone_top.png",
+      "bottom": "sandstone_bottom.png",
+      "front": "sandstone_normal.png",
+      "back": "sandstone_normal.png",
+      "left": "sandstone_normal.png",
+      "right": "sandstone_normal.png"
+    },
+    "ChiseledSandstone": {
+      "top": "sandstone_top.png",
+      "bottom": "sandstone_bottom.png",
+      "front": "sandstone_carved.png",
+      "back": "sandstone_carved.png",
+      "left": "sandstone_carved.png",
+      "right": "sandstone_carved.png"
+    },
+    "SmoothSandstone": {
+      "all": "sandstone_smooth.png"
+    },
+    "NoteBlock": {
+      "all": "noteblock.png"
+    },
+    "StickyPiston": {
+      "top": "piston_top_sticky.png",
+      "bottom": "piston_bottom.png",
+      "front": "piston_side.png",
+      "back": "piston_side.png",
+      "left": "piston_side.png",
+      "right": "piston_side.png"
+    },
+    "Piston": {
+      "top": "piston_top_normal.png",
+      "bottom": "piston_bottom.png",
+      "front": "piston_side.png",
+      "back": "piston_side.png",
+      "left": "piston_side.png",
+      "right": "piston_side.png"
+    },
+    "WhiteWool": {
+      "all": "wool_colored_white.png"
+    },
+    "OrangeWool": {
+      "all": "wool_colored_orange.png"
+    },
+    "MagentaWool": {
+      "all": "wool_colored_magenta.png"
+    },
+    "LightBlueWool": {
+      "all": "wool_colored_light_blue.png"
+    },
+    "YellowWool": {
+      "all": "wool_colored_yellow.png"
+    },
+    "LimeWool": {
+      "all": "wool_colored_lime.png"
+    },
+    "PinkWool": {
+      "all": "wool_colored_pink.png"
+    },
+    "GrayWool": {
+      "all": "wool_colored_gray.png"
+    },
+    "LightGrayWool": {
+      "all": "wool_colored_silver.png"
+    },
+    "CyanWool": {
+      "all": "wool_colored_cyan.png"
+    },
+    "PurpleWool": {
+      "all": "wool_colored_purple.png"
+    },
+    "BlueWool": {
+      "all": "wool_colored_blue.png"
+    },
+    "BrownWool": {
+      "all": "wool_colored_brown.png"
+    },
+    "GreenWool": {
+      "all": "wool_colored_green.png"
+    },
+    "RedWool": {
+      "all": "wool_colored_red.png"
+    },
+    "BlackWool": {
+      "all": "wool_colored_black.png"
+    },
+    "GoldBlock": {
+      "all": "gold_block.png"
+    },
+    "IronBlock": {
+      "all": "iron_block.png"
+    },
+    "DoubleStoneSlab": {
+      "top": "stone_slab_top.png",
+      "bottom": "stone_slab_top.png",
+      "front": "stone_slab_side.png",
+      "back": "stone_slab_side.png",
+      "left": "stone_slab_side.png",
+      "right": "stone_slab_side.png"
+    },
+    "DoubleSandstoneSlab": {
+      "top": "sandstone_top.png",
+      "bottom": "sandstone_bottom.png",
+      "front": "sandstone_normal.png",
+      "back": "sandstone_normal.png",
+      "left": "sandstone_normal.png",
+      "right": "sandstone_normal.png"
+    },
+    "DoubleCobblestoneSlab": {
+      "all": "cobblestone.png"
+    },
+    "DoubleBrickSlab": {
+      "all": "brick.png"
+    },
+    "DoubleStoneBrickSlab": {
+      "all": "stonebrick.png"
+    },
+    "DoubleNetherBrickSlab": {
+      "all": "nether_brick.png"
+    },
+    "DoubleQuartzSlab": {
+      "top": "quartz_block_top.png",
+      "bottom": "quartz_block_bottom.png",
+      "front": "quartz_block_side.png",
+      "back": "quartz_block_side.png",
+      "left": "quartz_block_side.png",
+      "right": "quartz_block_side.png"
+    },
+    "Bricks": {
+      "all": "brick.png"
+    },
+    "TNT": {
+      "top": "tnt_top.png",
+      "bottom": "tnt_bottom.png",
+      "front": "tnt_side.png",
+      "back": "tnt_side.png",
+      "left": "tnt_side.png",
+      "right": "tnt_side.png"
+    },
+    "Bookshelf": {
+      "all": "bookshelf.png"
+    },
+    "MossyCobblestone": {
+      "all": "cobblestone_mossy.png"
+    },
+    "Obsidian": {
+      "all": "obsidian.png"
+    },
+    "MonsterSpawner": {
+      "all": "mob_spawner.png"
+    },
+    "DiamondOre": {
+      "all": "diamond_ore.png"
+    },
+    "DiamondBlock": {
+      "all": "diamond_block.png"
+    },
+    "CraftingTable": {
+      "top": "crafting_table_top.png",
+      "bottom": "planks_oak.png",
+      "front": "crafting_table_front.png",
+      "back": "crafting_table_side.png",
+      "left": "crafting_table_side.png",
+      "right": "crafting_table_side.png"
+    },
+    "Furnace": {
+      "top": "furnace_top.png",
+      "bottom": "furnace_top.png",
+      "front": "furnace_front_off.png",
+      "back": "furnace_side.png",
+      "left": "furnace_side.png",
+      "right": "furnace_side.png"
+    },
+    "BurningFurnace": {
+      "top": "furnace_top.png",
+      "bottom": "furnace_top.png",
+      "front": "furnace_front_on.png",
+      "back": "furnace_side.png",
+      "left": "furnace_side.png",
+      "right": "furnace_side.png"
+    },
+    "RedstoneOre": {
+      "all": "redstone_ore.png"
+    },
+    "GlowingRedstoneOre": {
+      "all": "redstone_ore.png"
+    },
+    "Ice": {
+      "all": "ice.png"
+    },
+    "SnowBlock": {
+      "all": "snow.png"
+    },
+    "Clay": {
+      "all": "clay.png"
+    },
+    "Jukebox": {
+      "top": "jukebox_top.png",
+      "bottom": "jukebox_side.png",
+      "front": "jukebox_side.png",
+      "back": "jukebox_side.png",
+      "left": "jukebox_side.png",
+      "right": "jukebox_side.png"
+    },
+    "Pumpkin": {
+      "top": "pumpkin_top.png",
+      "bottom": "pumpkin_top.png",
+      "front": "pumpkin_face_off.png",
+      "back": "pumpkin_side.png",
+      "left": "pumpkin_side.png",
+      "right": "pumpkin_side.png"
+    },
+    "Netherrack": {
+      "all": "netherrack.png"
+    },
+    "Glowstone": {
+      "all": "glowstone.png"
+    },
+    "JackOLantern": {
+      "top": "pumpkin_top.png",
+      "bottom": "pumpkin_top.png",
+      "front": "pumpkin_face_on.png",
+      "back": "pumpkin_side.png",
+      "left": "pumpkin_side.png",
+      "right": "pumpkin_side.png"
+    },
+    "WhiteStainedGlass": {
+      "all": "glass_white.png"
+    },
+    "OrangeStainedGlass": {
+      "all": "glass_orange.png"
+    },
+    "MagentaStainedGlass": {
+      "all": "glass_magenta.png"
+    },
+    "LightBlueStainedGlass": {
+      "all": "glass_light_blue.png"
+    },
+    "YellowStainedGlass": {
+      "all": "glass_yellow.png"
+    },
+    "LimeStainedGlass": {
+      "all": "glass_lime.png"
+    },
+    "PinkStainedGlass": {
+      "all": "glass_pink.png"
+    },
+    "GrayStainedGlass": {
+      "all": "glass_gray.png"
+    },
+    "LightGrayStainedGlass": {
+      "all": "glass_silver.png"
+    },
+    "CyanStainedGlass": {
+      "all": "glass_cyan.png"
+    },
+    "PurpleStainedGlass": {
+      "all": "glass_purple.png"
+    },
+    "BlueStainedGlass": {
+      "all": "glass_blue.png"
+    },
+    "BrownStainedGlass": {
+      "all": "glass_brown.png"
+    },
+    "GreenStainedGlass": {
+      "all": "glass_green.png"
+    },
+    "RedStainedGlass": {
+      "all": "glass_red.png"
+    },
+    "BlackStainedGlass": {
+      "all": "glass_black.png"
+    },
+    "InfestedStone": {
+      "all": "stone.png"
+    },
+    "InfestedCobblestone": {
+      "all": "cobblestone.png"
+    },
+    "InfestedStoneBricks": {
+      "all": "stonebrick.png"
+    },
+    "InfestedMossyStoneBricks": {
+      "all": "stonebrick_mossy.png"
+    },
+    "InfestedCrackedStoneBricks": {
+      "all": "stonebrick_cracked.png"
+    },
+    "InfestedChiseledStoneBricks": {
+      "all": "stonebrick_carved.png"
+    },
+    "StoneBricks": {
+      "all": "stonebrick.png"
+    },
+    "MossyStoneBricks": {
+      "all": "stonebrick_mossy.png"
+    },
+    "CrackedStoneBricks": {
+      "all": "stonebrick_cracked.png"
+    },
+    "ChiseledStoneBricks": {
+      "all": "stonebrick_carved.png"
+    },
+    "BrownMushroomBlock": {
+      "all": "mushroom_block_skin_brown.png",
+      "special": "legacy mushroom block face states simplified to outside skin"
+    },
+    "RedMushroomBlock": {
+      "all": "mushroom_block_skin_red.png",
+      "special": "legacy mushroom block face states simplified to outside skin"
+    },
+    "Melon": {
+      "top": "melon_top.png",
+      "bottom": "melon_top.png",
+      "front": "melon_side.png",
+      "back": "melon_side.png",
+      "left": "melon_side.png",
+      "right": "melon_side.png"
+    },
+    "Mycelium": {
+      "top": "mycelium_top.png",
+      "bottom": "dirt.png",
+      "front": "mycelium_side.png",
+      "back": "mycelium_side.png",
+      "left": "mycelium_side.png",
+      "right": "mycelium_side.png"
+    },
+    "NetherBrick": {
+      "all": "nether_brick.png"
+    },
+    "EndStone": {
+      "all": "end_stone.png"
+    },
+    "RedstoneLamp": {
+      "all": "redstone_lamp_off.png"
+    },
+    "LitRedstoneLamp": {
+      "all": "redstone_lamp_on.png"
+    },
+    "DoubleOakWoodSlab": {
+      "all": "planks_oak.png"
+    },
+    "DoubleSpruceWoodSlab": {
+      "all": "planks_spruce.png"
+    },
+    "DoubleBirchWoodSlab": {
+      "all": "planks_birch.png"
+    },
+    "DoubleJungleWoodSlab": {
+      "all": "planks_jungle.png"
+    },
+    "DoubleAcaciaWoodSlab": {
+      "all": "planks_acacia.png"
+    },
+    "DoubleDarkOakWoodSlab": {
+      "all": "planks_big_oak.png"
+    },
+    "EmeraldOre": {
+      "all": "emerald_ore.png"
+    },
+    "EmeraldBlock": {
+      "all": "emerald_block.png"
+    },
+    "CommandBlock": {
+      "top": "command_block_side.png",
+      "bottom": "command_block_side.png",
+      "front": "command_block_front.png",
+      "back": "command_block_back.png",
+      "left": "command_block_side.png",
+      "right": "command_block_side.png",
+      "special": "animated source texture; use first frame when converting"
+    },
+    "RedstoneBlock": {
+      "all": "redstone_block.png"
+    },
+    "NetherQuartzOre": {
+      "all": "quartz_ore.png"
+    },
+    "QuartzBlock": {
+      "top": "quartz_block_top.png",
+      "bottom": "quartz_block_bottom.png",
+      "front": "quartz_block_side.png",
+      "back": "quartz_block_side.png",
+      "left": "quartz_block_side.png",
+      "right": "quartz_block_side.png"
+    },
+    "ChiseledQuartzBlock": {
+      "top": "quartz_block_chiseled_top.png",
+      "bottom": "quartz_block_chiseled_top.png",
+      "front": "quartz_block_chiseled.png",
+      "back": "quartz_block_chiseled.png",
+      "left": "quartz_block_chiseled.png",
+      "right": "quartz_block_chiseled.png"
+    },
+    "QuartzPillar": {
+      "top": "quartz_block_lines_top.png",
+      "bottom": "quartz_block_lines_top.png",
+      "front": "quartz_block_lines.png",
+      "back": "quartz_block_lines.png",
+      "left": "quartz_block_lines.png",
+      "right": "quartz_block_lines.png"
+    },
+    "Dropper": {
+      "top": "furnace_top.png",
+      "bottom": "furnace_top.png",
+      "front": "dropper_front_horizontal.png",
+      "back": "furnace_side.png",
+      "left": "furnace_side.png",
+      "right": "furnace_side.png"
+    },
+    "WhiteTerracotta": {
+      "all": "hardened_clay_stained_white.png"
+    },
+    "OrangeTerracotta": {
+      "all": "hardened_clay_stained_orange.png"
+    },
+    "MagentaTerracotta": {
+      "all": "hardened_clay_stained_magenta.png"
+    },
+    "LightBlueTerracotta": {
+      "all": "hardened_clay_stained_light_blue.png"
+    },
+    "YellowTerracotta": {
+      "all": "hardened_clay_stained_yellow.png"
+    },
+    "LimeTerracotta": {
+      "all": "hardened_clay_stained_lime.png"
+    },
+    "PinkTerracotta": {
+      "all": "hardened_clay_stained_pink.png"
+    },
+    "GrayTerracotta": {
+      "all": "hardened_clay_stained_gray.png"
+    },
+    "LightGrayTerracotta": {
+      "all": "hardened_clay_stained_silver.png"
+    },
+    "CyanTerracotta": {
+      "all": "hardened_clay_stained_cyan.png"
+    },
+    "PurpleTerracotta": {
+      "all": "hardened_clay_stained_purple.png"
+    },
+    "BlueTerracotta": {
+      "all": "hardened_clay_stained_blue.png"
+    },
+    "BrownTerracotta": {
+      "all": "hardened_clay_stained_brown.png"
+    },
+    "GreenTerracotta": {
+      "all": "hardened_clay_stained_green.png"
+    },
+    "RedTerracotta": {
+      "all": "hardened_clay_stained_red.png"
+    },
+    "BlackTerracotta": {
+      "all": "hardened_clay_stained_black.png"
+    },
+    "AcaciaLeaves": {
+      "all": "leaves_acacia.png",
+      "tint": "leaves"
+    },
+    "DarkOakLeaves": {
+      "all": "leaves_big_oak.png",
+      "tint": "leaves"
+    },
+    "AcaciaLog": {
+      "top": "log_acacia_top.png",
+      "bottom": "log_acacia_top.png",
+      "front": "log_acacia.png",
+      "back": "log_acacia.png",
+      "left": "log_acacia.png",
+      "right": "log_acacia.png"
+    },
+    "DarkOakLog": {
+      "top": "log_big_oak_top.png",
+      "bottom": "log_big_oak_top.png",
+      "front": "log_big_oak.png",
+      "back": "log_big_oak.png",
+      "left": "log_big_oak.png",
+      "right": "log_big_oak.png"
+    },
+    "SlimeBlock": {
+      "all": "slime.png"
+    },
+    "Prismarine": {
+      "all": "prismarine_rough.png"
+    },
+    "PrismarineBricks": {
+      "all": "prismarine_bricks.png"
+    },
+    "DarkPrismarine": {
+      "all": "prismarine_dark.png"
+    },
+    "SeaLantern": {
+      "all": "sea_lantern.png"
+    },
+    "HayBale": {
+      "top": "hay_block_top.png",
+      "bottom": "hay_block_top.png",
+      "front": "hay_block_side.png",
+      "back": "hay_block_side.png",
+      "left": "hay_block_side.png",
+      "right": "hay_block_side.png"
+    },
+    "Terracotta": {
+      "all": "hardened_clay.png"
+    },
+    "CoalBlock": {
+      "all": "coal_block.png"
+    },
+    "PackedIce": {
+      "all": "ice_packed.png"
+    },
+    "RedSandstone": {
+      "top": "red_sandstone_top.png",
+      "bottom": "red_sandstone_bottom.png",
+      "front": "red_sandstone_normal.png",
+      "back": "red_sandstone_normal.png",
+      "left": "red_sandstone_normal.png",
+      "right": "red_sandstone_normal.png"
+    },
+    "ChiseledRedSandstone": {
+      "top": "red_sandstone_top.png",
+      "bottom": "red_sandstone_bottom.png",
+      "front": "red_sandstone_carved.png",
+      "back": "red_sandstone_carved.png",
+      "left": "red_sandstone_carved.png",
+      "right": "red_sandstone_carved.png"
+    },
+    "SmoothRedSandstone": {
+      "all": "red_sandstone_smooth.png"
+    },
+    "DoubleRedSandstoneSlab": {
+      "top": "red_sandstone_top.png",
+      "bottom": "red_sandstone_bottom.png",
+      "front": "red_sandstone_normal.png",
+      "back": "red_sandstone_normal.png",
+      "left": "red_sandstone_normal.png",
+      "right": "red_sandstone_normal.png"
+    },
+    "PurpurBlock": {
+      "all": "purpur_block.png"
+    },
+    "PurpurPillar": {
+      "top": "purpur_pillar_top.png",
+      "bottom": "purpur_pillar_top.png",
+      "front": "purpur_pillar.png",
+      "back": "purpur_pillar.png",
+      "left": "purpur_pillar.png",
+      "right": "purpur_pillar.png"
+    },
+    "PurpurDoubleSlab": {
+      "all": "purpur_block.png"
+    },
+    "EndStoneBricks": {
+      "all": "end_bricks.png"
+    },
+    "RepeatingCommandBlock": {
+      "top": "repeating_command_block_side.png",
+      "bottom": "repeating_command_block_side.png",
+      "front": "repeating_command_block_front.png",
+      "back": "repeating_command_block_back.png",
+      "left": "repeating_command_block_side.png",
+      "right": "repeating_command_block_side.png",
+      "special": "animated source texture; use first frame when converting"
+    },
+    "ChainCommandBlock": {
+      "top": "chain_command_block_side.png",
+      "bottom": "chain_command_block_side.png",
+      "front": "chain_command_block_front.png",
+      "back": "chain_command_block_back.png",
+      "left": "chain_command_block_side.png",
+      "right": "chain_command_block_side.png",
+      "special": "animated source texture; use first frame when converting"
+    },
+    "FrostedIce": {
+      "all": "frosted_ice_0.png",
+      "special": "uses stage 0; Minecraft has 4 crack stages"
+    },
+    "MagmaBlock": {
+      "all": "magma.png"
+    },
+    "NetherWartBlock": {
+      "all": "nether_wart_block.png"
+    },
+    "RedNetherBrick": {
+      "all": "red_nether_brick.png"
+    },
+    "BoneBlock": {
+      "top": "bone_block_top.png",
+      "bottom": "bone_block_top.png",
+      "front": "bone_block_side.png",
+      "back": "bone_block_side.png",
+      "left": "bone_block_side.png",
+      "right": "bone_block_side.png"
+    },
+    "Observer": {
+      "top": "observer_top.png",
+      "bottom": "observer_top.png",
+      "front": "observer_front.png",
+      "back": "observer_back.png",
+      "left": "observer_side.png",
+      "right": "observer_side.png"
+    },
+    "WhiteShulkerBox": {
+      "top": "shulker_top_white.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "OrangeShulkerBox": {
+      "top": "shulker_top_orange.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "MagentaShulkerBox": {
+      "top": "shulker_top_magenta.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "LightBlueShulkerBox": {
+      "top": "shulker_top_light_blue.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "YellowShulkerBox": {
+      "top": "shulker_top_yellow.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "LimeShulkerBox": {
+      "top": "shulker_top_lime.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "PinkShulkerBox": {
+      "top": "shulker_top_pink.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "GrayShulkerBox": {
+      "top": "shulker_top_gray.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "LightGrayShulkerBox": {
+      "top": "shulker_top_silver.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "CyanShulkerBox": {
+      "top": "shulker_top_cyan.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "PurpleShulkerBox": {
+      "top": "shulker_top_purple.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "BlueShulkerBox": {
+      "top": "shulker_top_blue.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "BrownShulkerBox": {
+      "top": "shulker_top_brown.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "GreenShulkerBox": {
+      "top": "shulker_top_green.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "RedShulkerBox": {
+      "top": "shulker_top_red.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "BlackShulkerBox": {
+      "top": "shulker_top_black.png",
+      "bottom": null,
+      "front": null,
+      "back": null,
+      "left": null,
+      "right": null,
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "WhiteGlazedTerracotta": {
+      "all": "glazed_terracotta_white.png"
+    },
+    "OrangeGlazedTerracotta": {
+      "all": "glazed_terracotta_orange.png"
+    },
+    "MagentaGlazedTerracotta": {
+      "all": "glazed_terracotta_magenta.png"
+    },
+    "LightBlueGlazedTerracotta": {
+      "all": "glazed_terracotta_light_blue.png"
+    },
+    "YellowGlazedTerracotta": {
+      "all": "glazed_terracotta_yellow.png"
+    },
+    "LimeGlazedTerracotta": {
+      "all": "glazed_terracotta_lime.png"
+    },
+    "PinkGlazedTerracotta": {
+      "all": "glazed_terracotta_pink.png"
+    },
+    "GrayGlazedTerracotta": {
+      "all": "glazed_terracotta_gray.png"
+    },
+    "LightGrayGlazedTerracotta": {
+      "all": "glazed_terracotta_silver.png"
+    },
+    "CyanGlazedTerracotta": {
+      "all": "glazed_terracotta_cyan.png"
+    },
+    "PurpleGlazedTerracotta": {
+      "all": "glazed_terracotta_purple.png"
+    },
+    "BlueGlazedTerracotta": {
+      "all": "glazed_terracotta_blue.png"
+    },
+    "BrownGlazedTerracotta": {
+      "all": "glazed_terracotta_brown.png"
+    },
+    "GreenGlazedTerracotta": {
+      "all": "glazed_terracotta_green.png"
+    },
+    "RedGlazedTerracotta": {
+      "all": "glazed_terracotta_red.png"
+    },
+    "BlackGlazedTerracotta": {
+      "all": "glazed_terracotta_black.png"
+    },
+    "WhiteConcrete": {
+      "all": "concrete_white.png"
+    },
+    "OrangeConcrete": {
+      "all": "concrete_orange.png"
+    },
+    "MagentaConcrete": {
+      "all": "concrete_magenta.png"
+    },
+    "LightBlueConcrete": {
+      "all": "concrete_light_blue.png"
+    },
+    "YellowConcrete": {
+      "all": "concrete_yellow.png"
+    },
+    "LimeConcrete": {
+      "all": "concrete_lime.png"
+    },
+    "PinkConcrete": {
+      "all": "concrete_pink.png"
+    },
+    "GrayConcrete": {
+      "all": "concrete_gray.png"
+    },
+    "LightGrayConcrete": {
+      "all": "concrete_silver.png"
+    },
+    "CyanConcrete": {
+      "all": "concrete_cyan.png"
+    },
+    "PurpleConcrete": {
+      "all": "concrete_purple.png"
+    },
+    "BlueConcrete": {
+      "all": "concrete_blue.png"
+    },
+    "BrownConcrete": {
+      "all": "concrete_brown.png"
+    },
+    "GreenConcrete": {
+      "all": "concrete_green.png"
+    },
+    "RedConcrete": {
+      "all": "concrete_red.png"
+    },
+    "BlackConcrete": {
+      "all": "concrete_black.png"
+    },
+    "WhiteConcretePowder": {
+      "all": "concrete_powder_white.png"
+    },
+    "OrangeConcretePowder": {
+      "all": "concrete_powder_orange.png"
+    },
+    "MagentaConcretePowder": {
+      "all": "concrete_powder_magenta.png"
+    },
+    "LightBlueConcretePowder": {
+      "all": "concrete_powder_light_blue.png"
+    },
+    "YellowConcretePowder": {
+      "all": "concrete_powder_yellow.png"
+    },
+    "LimeConcretePowder": {
+      "all": "concrete_powder_lime.png"
+    },
+    "PinkConcretePowder": {
+      "all": "concrete_powder_pink.png"
+    },
+    "GrayConcretePowder": {
+      "all": "concrete_powder_gray.png"
+    },
+    "LightGrayConcretePowder": {
+      "all": "concrete_powder_silver.png"
+    },
+    "CyanConcretePowder": {
+      "all": "concrete_powder_cyan.png"
+    },
+    "PurpleConcretePowder": {
+      "all": "concrete_powder_purple.png"
+    },
+    "BlueConcretePowder": {
+      "all": "concrete_powder_blue.png"
+    },
+    "BrownConcretePowder": {
+      "all": "concrete_powder_brown.png"
+    },
+    "GreenConcretePowder": {
+      "all": "concrete_powder_green.png"
+    },
+    "RedConcretePowder": {
+      "all": "concrete_powder_red.png"
+    },
+    "BlackConcretePowder": {
+      "all": "concrete_powder_black.png"
+    },
+    "StructureBlock": {
+      "all": "structure_block.png"
+    }
+  },
+  "_validation": {
+    "unmapped_blocks": [],
+    "referenced_files_not_in_supplied_listing": []
+  }
+}

@@ -1,0 +1,2118 @@
+{
+  "source": "D:\\documenten\\Games\\UnrealTournament\\MinecraftBlocks\\MinecraftTextures",
+  "count": 250,
+  "blocks": {
+    "Stone": {
+      "pcx": "MCStone.pcx",
+      "preview": "MCStone.png",
+      "transparent": false,
+      "source_files": [
+        "stone.png"
+      ]
+    },
+    "Granite": {
+      "pcx": "MCGranite.pcx",
+      "preview": "MCGranite.png",
+      "transparent": false,
+      "source_files": [
+        "stone_granite.png"
+      ]
+    },
+    "PolishedGranite": {
+      "pcx": "MCPolishedGranite.pcx",
+      "preview": "MCPolishedGranite.png",
+      "transparent": false,
+      "source_files": [
+        "stone_granite_smooth.png"
+      ]
+    },
+    "Diorite": {
+      "pcx": "MCDiorite.pcx",
+      "preview": "MCDiorite.png",
+      "transparent": false,
+      "source_files": [
+        "stone_diorite.png"
+      ]
+    },
+    "PolishedDiorite": {
+      "pcx": "MCPolishedDiorite.pcx",
+      "preview": "MCPolishedDiorite.png",
+      "transparent": false,
+      "source_files": [
+        "stone_diorite_smooth.png"
+      ]
+    },
+    "Andesite": {
+      "pcx": "MCAndesite.pcx",
+      "preview": "MCAndesite.png",
+      "transparent": false,
+      "source_files": [
+        "stone_andesite.png"
+      ]
+    },
+    "PolishedAndesite": {
+      "pcx": "MCPolishedAndesite.pcx",
+      "preview": "MCPolishedAndesite.png",
+      "transparent": false,
+      "source_files": [
+        "stone_andesite_smooth.png"
+      ]
+    },
+    "Grass": {
+      "pcx": "MCGrass.pcx",
+      "preview": "MCGrass.png",
+      "transparent": false,
+      "source_files": [
+        "dirt.png",
+        "grass_side.png",
+        "grass_top.png"
+      ]
+    },
+    "Dirt": {
+      "pcx": "MCDirt.pcx",
+      "preview": "MCDirt.png",
+      "transparent": false,
+      "source_files": [
+        "dirt.png"
+      ]
+    },
+    "CoarseDirt": {
+      "pcx": "MCCoarseDirt.pcx",
+      "preview": "MCCoarseDirt.png",
+      "transparent": false,
+      "source_files": [
+        "coarse_dirt.png"
+      ]
+    },
+    "Podzol": {
+      "pcx": "MCPodzol.pcx",
+      "preview": "MCPodzol.png",
+      "transparent": false,
+      "source_files": [
+        "dirt.png",
+        "dirt_podzol_side.png",
+        "dirt_podzol_top.png"
+      ]
+    },
+    "Cobblestone": {
+      "pcx": "MCCobblestone.pcx",
+      "preview": "MCCobblestone.png",
+      "transparent": false,
+      "source_files": [
+        "cobblestone.png"
+      ]
+    },
+    "OakPlanks": {
+      "pcx": "MCOakPlanks.pcx",
+      "preview": "MCOakPlanks.png",
+      "transparent": false,
+      "source_files": [
+        "planks_oak.png"
+      ]
+    },
+    "SprucePlanks": {
+      "pcx": "MCSprucePlanks.pcx",
+      "preview": "MCSprucePlanks.png",
+      "transparent": false,
+      "source_files": [
+        "planks_spruce.png"
+      ]
+    },
+    "BirchPlanks": {
+      "pcx": "MCBirchPlanks.pcx",
+      "preview": "MCBirchPlanks.png",
+      "transparent": false,
+      "source_files": [
+        "planks_birch.png"
+      ]
+    },
+    "JunglePlanks": {
+      "pcx": "MCJunglePlanks.pcx",
+      "preview": "MCJunglePlanks.png",
+      "transparent": false,
+      "source_files": [
+        "planks_jungle.png"
+      ]
+    },
+    "AcaciaPlanks": {
+      "pcx": "MCAcaciaPlanks.pcx",
+      "preview": "MCAcaciaPlanks.png",
+      "transparent": false,
+      "source_files": [
+        "planks_acacia.png"
+      ]
+    },
+    "DarkOakPlanks": {
+      "pcx": "MCDarkOakPlanks.pcx",
+      "preview": "MCDarkOakPlanks.png",
+      "transparent": false,
+      "source_files": [
+        "planks_big_oak.png"
+      ]
+    },
+    "Bedrock": {
+      "pcx": "MCBedrock.pcx",
+      "preview": "MCBedrock.png",
+      "transparent": false,
+      "source_files": [
+        "bedrock.png"
+      ]
+    },
+    "Sand": {
+      "pcx": "MCSand.pcx",
+      "preview": "MCSand.png",
+      "transparent": false,
+      "source_files": [
+        "sand.png"
+      ]
+    },
+    "RedSand": {
+      "pcx": "MCRedSand.pcx",
+      "preview": "MCRedSand.png",
+      "transparent": false,
+      "source_files": [
+        "red_sand.png"
+      ]
+    },
+    "Gravel": {
+      "pcx": "MCGravel.pcx",
+      "preview": "MCGravel.png",
+      "transparent": false,
+      "source_files": [
+        "gravel.png"
+      ]
+    },
+    "GoldOre": {
+      "pcx": "MCGoldOre.pcx",
+      "preview": "MCGoldOre.png",
+      "transparent": false,
+      "source_files": [
+        "gold_ore.png"
+      ]
+    },
+    "IronOre": {
+      "pcx": "MCIronOre.pcx",
+      "preview": "MCIronOre.png",
+      "transparent": false,
+      "source_files": [
+        "iron_ore.png"
+      ]
+    },
+    "CoalOre": {
+      "pcx": "MCCoalOre.pcx",
+      "preview": "MCCoalOre.png",
+      "transparent": false,
+      "source_files": [
+        "coal_ore.png"
+      ]
+    },
+    "OakLog": {
+      "pcx": "MCOakLog.pcx",
+      "preview": "MCOakLog.png",
+      "transparent": false,
+      "source_files": [
+        "log_oak.png",
+        "log_oak_top.png"
+      ]
+    },
+    "SpruceLog": {
+      "pcx": "MCSpruceLog.pcx",
+      "preview": "MCSpruceLog.png",
+      "transparent": false,
+      "source_files": [
+        "log_spruce.png",
+        "log_spruce_top.png"
+      ]
+    },
+    "BirchLog": {
+      "pcx": "MCBirchLog.pcx",
+      "preview": "MCBirchLog.png",
+      "transparent": false,
+      "source_files": [
+        "log_birch.png",
+        "log_birch_top.png"
+      ]
+    },
+    "JungleLog": {
+      "pcx": "MCJungleLog.pcx",
+      "preview": "MCJungleLog.png",
+      "transparent": false,
+      "source_files": [
+        "log_jungle.png",
+        "log_jungle_top.png"
+      ]
+    },
+    "OakLeaves": {
+      "pcx": "MCOakLeaves.pcx",
+      "preview": "MCOakLeaves.png",
+      "transparent": true,
+      "source_files": [
+        "leaves_oak.png"
+      ]
+    },
+    "SpruceLeaves": {
+      "pcx": "MCSpruceLeaves.pcx",
+      "preview": "MCSpruceLeaves.png",
+      "transparent": true,
+      "source_files": [
+        "leaves_spruce.png"
+      ]
+    },
+    "BirchLeaves": {
+      "pcx": "MCBirchLeaves.pcx",
+      "preview": "MCBirchLeaves.png",
+      "transparent": true,
+      "source_files": [
+        "leaves_birch.png"
+      ]
+    },
+    "JungleLeaves": {
+      "pcx": "MCJungleLeaves.pcx",
+      "preview": "MCJungleLeaves.png",
+      "transparent": true,
+      "source_files": [
+        "leaves_jungle.png"
+      ]
+    },
+    "Sponge": {
+      "pcx": "MCSponge.pcx",
+      "preview": "MCSponge.png",
+      "transparent": false,
+      "source_files": [
+        "sponge.png"
+      ]
+    },
+    "WetSponge": {
+      "pcx": "MCWetSponge.pcx",
+      "preview": "MCWetSponge.png",
+      "transparent": false,
+      "source_files": [
+        "sponge_wet.png"
+      ]
+    },
+    "Glass": {
+      "pcx": "MCGlass.pcx",
+      "preview": "MCGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass.png"
+      ]
+    },
+    "LapisOre": {
+      "pcx": "MCLapisOre.pcx",
+      "preview": "MCLapisOre.png",
+      "transparent": false,
+      "source_files": [
+        "lapis_ore.png"
+      ]
+    },
+    "LapisBlock": {
+      "pcx": "MCLapisBlock.pcx",
+      "preview": "MCLapisBlock.png",
+      "transparent": false,
+      "source_files": [
+        "lapis_block.png"
+      ]
+    },
+    "Dispenser": {
+      "pcx": "MCDispenser.pcx",
+      "preview": "MCDispenser.png",
+      "transparent": false,
+      "source_files": [
+        "dispenser_front_horizontal.png",
+        "furnace_side.png",
+        "furnace_top.png"
+      ]
+    },
+    "Sandstone": {
+      "pcx": "MCSandstone.pcx",
+      "preview": "MCSandstone.png",
+      "transparent": false,
+      "source_files": [
+        "sandstone_bottom.png",
+        "sandstone_normal.png",
+        "sandstone_top.png"
+      ]
+    },
+    "ChiseledSandstone": {
+      "pcx": "MCChiseledSandstone.pcx",
+      "preview": "MCChiseledSandstone.png",
+      "transparent": false,
+      "source_files": [
+        "sandstone_bottom.png",
+        "sandstone_carved.png",
+        "sandstone_top.png"
+      ]
+    },
+    "SmoothSandstone": {
+      "pcx": "MCSmoothSandstone.pcx",
+      "preview": "MCSmoothSandstone.png",
+      "transparent": false,
+      "source_files": [
+        "sandstone_smooth.png"
+      ]
+    },
+    "NoteBlock": {
+      "pcx": "MCNoteBlock.pcx",
+      "preview": "MCNoteBlock.png",
+      "transparent": false,
+      "source_files": [
+        "noteblock.png"
+      ]
+    },
+    "StickyPiston": {
+      "pcx": "MCStickyPiston.pcx",
+      "preview": "MCStickyPiston.png",
+      "transparent": false,
+      "source_files": [
+        "piston_bottom.png",
+        "piston_side.png",
+        "piston_top_sticky.png"
+      ]
+    },
+    "Piston": {
+      "pcx": "MCPiston.pcx",
+      "preview": "MCPiston.png",
+      "transparent": false,
+      "source_files": [
+        "piston_bottom.png",
+        "piston_side.png",
+        "piston_top_normal.png"
+      ]
+    },
+    "WhiteWool": {
+      "pcx": "MCWhiteWool.pcx",
+      "preview": "MCWhiteWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_white.png"
+      ]
+    },
+    "OrangeWool": {
+      "pcx": "MCOrangeWool.pcx",
+      "preview": "MCOrangeWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_orange.png"
+      ]
+    },
+    "MagentaWool": {
+      "pcx": "MCMagentaWool.pcx",
+      "preview": "MCMagentaWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_magenta.png"
+      ]
+    },
+    "LightBlueWool": {
+      "pcx": "MCLightBlueWool.pcx",
+      "preview": "MCLightBlueWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_light_blue.png"
+      ]
+    },
+    "YellowWool": {
+      "pcx": "MCYellowWool.pcx",
+      "preview": "MCYellowWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_yellow.png"
+      ]
+    },
+    "LimeWool": {
+      "pcx": "MCLimeWool.pcx",
+      "preview": "MCLimeWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_lime.png"
+      ]
+    },
+    "PinkWool": {
+      "pcx": "MCPinkWool.pcx",
+      "preview": "MCPinkWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_pink.png"
+      ]
+    },
+    "GrayWool": {
+      "pcx": "MCGrayWool.pcx",
+      "preview": "MCGrayWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_gray.png"
+      ]
+    },
+    "LightGrayWool": {
+      "pcx": "MCLightGrayWool.pcx",
+      "preview": "MCLightGrayWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_silver.png"
+      ]
+    },
+    "CyanWool": {
+      "pcx": "MCCyanWool.pcx",
+      "preview": "MCCyanWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_cyan.png"
+      ]
+    },
+    "PurpleWool": {
+      "pcx": "MCPurpleWool.pcx",
+      "preview": "MCPurpleWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_purple.png"
+      ]
+    },
+    "BlueWool": {
+      "pcx": "MCBlueWool.pcx",
+      "preview": "MCBlueWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_blue.png"
+      ]
+    },
+    "BrownWool": {
+      "pcx": "MCBrownWool.pcx",
+      "preview": "MCBrownWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_brown.png"
+      ]
+    },
+    "GreenWool": {
+      "pcx": "MCGreenWool.pcx",
+      "preview": "MCGreenWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_green.png"
+      ]
+    },
+    "RedWool": {
+      "pcx": "MCRedWool.pcx",
+      "preview": "MCRedWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_red.png"
+      ]
+    },
+    "BlackWool": {
+      "pcx": "MCBlackWool.pcx",
+      "preview": "MCBlackWool.png",
+      "transparent": false,
+      "source_files": [
+        "wool_colored_black.png"
+      ]
+    },
+    "GoldBlock": {
+      "pcx": "MCGoldBlock.pcx",
+      "preview": "MCGoldBlock.png",
+      "transparent": false,
+      "source_files": [
+        "gold_block.png"
+      ]
+    },
+    "IronBlock": {
+      "pcx": "MCIronBlock.pcx",
+      "preview": "MCIronBlock.png",
+      "transparent": false,
+      "source_files": [
+        "iron_block.png"
+      ]
+    },
+    "DoubleStoneSlab": {
+      "pcx": "MCDoubleStoneSlab.pcx",
+      "preview": "MCDoubleStoneSlab.png",
+      "transparent": false,
+      "source_files": [
+        "stone_slab_side.png",
+        "stone_slab_top.png"
+      ]
+    },
+    "DoubleSandstoneSlab": {
+      "pcx": "MCDoubleSandstoneSlab.pcx",
+      "preview": "MCDoubleSandstoneSlab.png",
+      "transparent": false,
+      "source_files": [
+        "sandstone_bottom.png",
+        "sandstone_normal.png",
+        "sandstone_top.png"
+      ]
+    },
+    "DoubleCobblestoneSlab": {
+      "pcx": "MCDoubleCobblestoneSlab.pcx",
+      "preview": "MCDoubleCobblestoneSlab.png",
+      "transparent": false,
+      "source_files": [
+        "cobblestone.png"
+      ]
+    },
+    "DoubleBrickSlab": {
+      "pcx": "MCDoubleBrickSlab.pcx",
+      "preview": "MCDoubleBrickSlab.png",
+      "transparent": false,
+      "source_files": [
+        "brick.png"
+      ]
+    },
+    "DoubleStoneBrickSlab": {
+      "pcx": "MCDoubleStoneBrickSlab.pcx",
+      "preview": "MCDoubleStoneBrickSlab.png",
+      "transparent": false,
+      "source_files": [
+        "stonebrick.png"
+      ]
+    },
+    "DoubleNetherBrickSlab": {
+      "pcx": "MCDoubleNetherBrickSlab.pcx",
+      "preview": "MCDoubleNetherBrickSlab.png",
+      "transparent": false,
+      "source_files": [
+        "nether_brick.png"
+      ]
+    },
+    "DoubleQuartzSlab": {
+      "pcx": "MCDoubleQuartzSlab.pcx",
+      "preview": "MCDoubleQuartzSlab.png",
+      "transparent": false,
+      "source_files": [
+        "quartz_block_bottom.png",
+        "quartz_block_side.png",
+        "quartz_block_top.png"
+      ]
+    },
+    "Bricks": {
+      "pcx": "MCBricks.pcx",
+      "preview": "MCBricks.png",
+      "transparent": false,
+      "source_files": [
+        "brick.png"
+      ]
+    },
+    "TNT": {
+      "pcx": "MCTNT.pcx",
+      "preview": "MCTNT.png",
+      "transparent": false,
+      "source_files": [
+        "tnt_bottom.png",
+        "tnt_side.png",
+        "tnt_top.png"
+      ]
+    },
+    "Bookshelf": {
+      "pcx": "MCBookshelf.pcx",
+      "preview": "MCBookshelf.png",
+      "transparent": false,
+      "source_files": [
+        "bookshelf.png"
+      ]
+    },
+    "MossyCobblestone": {
+      "pcx": "MCMossyCobblestone.pcx",
+      "preview": "MCMossyCobblestone.png",
+      "transparent": false,
+      "source_files": [
+        "cobblestone_mossy.png"
+      ]
+    },
+    "Obsidian": {
+      "pcx": "MCObsidian.pcx",
+      "preview": "MCObsidian.png",
+      "transparent": false,
+      "source_files": [
+        "obsidian.png"
+      ]
+    },
+    "MonsterSpawner": {
+      "pcx": "MCMonsterSpawner.pcx",
+      "preview": "MCMonsterSpawner.png",
+      "transparent": true,
+      "source_files": [
+        "mob_spawner.png"
+      ]
+    },
+    "DiamondOre": {
+      "pcx": "MCDiamondOre.pcx",
+      "preview": "MCDiamondOre.png",
+      "transparent": false,
+      "source_files": [
+        "diamond_ore.png"
+      ]
+    },
+    "DiamondBlock": {
+      "pcx": "MCDiamondBlock.pcx",
+      "preview": "MCDiamondBlock.png",
+      "transparent": false,
+      "source_files": [
+        "diamond_block.png"
+      ]
+    },
+    "CraftingTable": {
+      "pcx": "MCCraftingTable.pcx",
+      "preview": "MCCraftingTable.png",
+      "transparent": false,
+      "source_files": [
+        "crafting_table_front.png",
+        "crafting_table_side.png",
+        "crafting_table_top.png",
+        "planks_oak.png"
+      ]
+    },
+    "Furnace": {
+      "pcx": "MCFurnace.pcx",
+      "preview": "MCFurnace.png",
+      "transparent": false,
+      "source_files": [
+        "furnace_front_off.png",
+        "furnace_side.png",
+        "furnace_top.png"
+      ]
+    },
+    "BurningFurnace": {
+      "pcx": "MCBurningFurnace.pcx",
+      "preview": "MCBurningFurnace.png",
+      "transparent": false,
+      "source_files": [
+        "furnace_front_on.png",
+        "furnace_side.png",
+        "furnace_top.png"
+      ]
+    },
+    "RedstoneOre": {
+      "pcx": "MCRedstoneOre.pcx",
+      "preview": "MCRedstoneOre.png",
+      "transparent": false,
+      "source_files": [
+        "redstone_ore.png"
+      ]
+    },
+    "GlowingRedstoneOre": {
+      "pcx": "MCGlowingRedstoneOre.pcx",
+      "preview": "MCGlowingRedstoneOre.png",
+      "transparent": false,
+      "source_files": [
+        "redstone_ore.png"
+      ]
+    },
+    "Ice": {
+      "pcx": "MCIce.pcx",
+      "preview": "MCIce.png",
+      "transparent": true,
+      "source_files": [
+        "ice.png"
+      ]
+    },
+    "SnowBlock": {
+      "pcx": "MCSnowBlock.pcx",
+      "preview": "MCSnowBlock.png",
+      "transparent": false,
+      "source_files": [
+        "snow.png"
+      ]
+    },
+    "Clay": {
+      "pcx": "MCClay.pcx",
+      "preview": "MCClay.png",
+      "transparent": false,
+      "source_files": [
+        "clay.png"
+      ]
+    },
+    "Jukebox": {
+      "pcx": "MCJukebox.pcx",
+      "preview": "MCJukebox.png",
+      "transparent": false,
+      "source_files": [
+        "jukebox_side.png",
+        "jukebox_top.png"
+      ]
+    },
+    "Pumpkin": {
+      "pcx": "MCPumpkin.pcx",
+      "preview": "MCPumpkin.png",
+      "transparent": false,
+      "source_files": [
+        "pumpkin_face_off.png",
+        "pumpkin_side.png",
+        "pumpkin_top.png"
+      ]
+    },
+    "Netherrack": {
+      "pcx": "MCNetherrack.pcx",
+      "preview": "MCNetherrack.png",
+      "transparent": false,
+      "source_files": [
+        "netherrack.png"
+      ]
+    },
+    "Glowstone": {
+      "pcx": "MCGlowstone.pcx",
+      "preview": "MCGlowstone.png",
+      "transparent": false,
+      "source_files": [
+        "glowstone.png"
+      ]
+    },
+    "JackOLantern": {
+      "pcx": "MCJackOLantern.pcx",
+      "preview": "MCJackOLantern.png",
+      "transparent": false,
+      "source_files": [
+        "pumpkin_face_on.png",
+        "pumpkin_side.png",
+        "pumpkin_top.png"
+      ]
+    },
+    "WhiteStainedGlass": {
+      "pcx": "MCWhiteStainedGlass.pcx",
+      "preview": "MCWhiteStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_white.png"
+      ]
+    },
+    "OrangeStainedGlass": {
+      "pcx": "MCOrangeStainedGlass.pcx",
+      "preview": "MCOrangeStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_orange.png"
+      ]
+    },
+    "MagentaStainedGlass": {
+      "pcx": "MCMagentaStainedGlass.pcx",
+      "preview": "MCMagentaStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_magenta.png"
+      ]
+    },
+    "LightBlueStainedGlass": {
+      "pcx": "MCLightBlueStainedGlass.pcx",
+      "preview": "MCLightBlueStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_light_blue.png"
+      ]
+    },
+    "YellowStainedGlass": {
+      "pcx": "MCYellowStainedGlass.pcx",
+      "preview": "MCYellowStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_yellow.png"
+      ]
+    },
+    "LimeStainedGlass": {
+      "pcx": "MCLimeStainedGlass.pcx",
+      "preview": "MCLimeStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_lime.png"
+      ]
+    },
+    "PinkStainedGlass": {
+      "pcx": "MCPinkStainedGlass.pcx",
+      "preview": "MCPinkStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_pink.png"
+      ]
+    },
+    "GrayStainedGlass": {
+      "pcx": "MCGrayStainedGlass.pcx",
+      "preview": "MCGrayStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_gray.png"
+      ]
+    },
+    "LightGrayStainedGlass": {
+      "pcx": "MCLightGrayStainedGlass.pcx",
+      "preview": "MCLightGrayStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_silver.png"
+      ]
+    },
+    "CyanStainedGlass": {
+      "pcx": "MCCyanStainedGlass.pcx",
+      "preview": "MCCyanStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_cyan.png"
+      ]
+    },
+    "PurpleStainedGlass": {
+      "pcx": "MCPurpleStainedGlass.pcx",
+      "preview": "MCPurpleStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_purple.png"
+      ]
+    },
+    "BlueStainedGlass": {
+      "pcx": "MCBlueStainedGlass.pcx",
+      "preview": "MCBlueStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_blue.png"
+      ]
+    },
+    "BrownStainedGlass": {
+      "pcx": "MCBrownStainedGlass.pcx",
+      "preview": "MCBrownStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_brown.png"
+      ]
+    },
+    "GreenStainedGlass": {
+      "pcx": "MCGreenStainedGlass.pcx",
+      "preview": "MCGreenStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_green.png"
+      ]
+    },
+    "RedStainedGlass": {
+      "pcx": "MCRedStainedGlass.pcx",
+      "preview": "MCRedStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_red.png"
+      ]
+    },
+    "BlackStainedGlass": {
+      "pcx": "MCBlackStainedGlass.pcx",
+      "preview": "MCBlackStainedGlass.png",
+      "transparent": true,
+      "source_files": [
+        "glass_black.png"
+      ]
+    },
+    "InfestedStone": {
+      "pcx": "MCInfestedStone.pcx",
+      "preview": "MCInfestedStone.png",
+      "transparent": false,
+      "source_files": [
+        "stone.png"
+      ]
+    },
+    "InfestedCobblestone": {
+      "pcx": "MCInfestedCobblestone.pcx",
+      "preview": "MCInfestedCobblestone.png",
+      "transparent": false,
+      "source_files": [
+        "cobblestone.png"
+      ]
+    },
+    "InfestedStoneBricks": {
+      "pcx": "MCInfestedStoneBricks.pcx",
+      "preview": "MCInfestedStoneBricks.png",
+      "transparent": false,
+      "source_files": [
+        "stonebrick.png"
+      ]
+    },
+    "InfestedMossyStoneBricks": {
+      "pcx": "MCInfestedMossyStoneBricks.pcx",
+      "preview": "MCInfestedMossyStoneBricks.png",
+      "transparent": false,
+      "source_files": [
+        "stonebrick_mossy.png"
+      ]
+    },
+    "InfestedCrackedStoneBricks": {
+      "pcx": "MCInfestedCrackedStoneBricks.pcx",
+      "preview": "MCInfestedCrackedStoneBricks.png",
+      "transparent": false,
+      "source_files": [
+        "stonebrick_cracked.png"
+      ]
+    },
+    "InfestedChiseledStoneBricks": {
+      "pcx": "MCInfestedChiseledStoneBricks.pcx",
+      "preview": "MCInfestedChiseledStoneBricks.png",
+      "transparent": false,
+      "source_files": [
+        "stonebrick_carved.png"
+      ]
+    },
+    "StoneBricks": {
+      "pcx": "MCStoneBricks.pcx",
+      "preview": "MCStoneBricks.png",
+      "transparent": false,
+      "source_files": [
+        "stonebrick.png"
+      ]
+    },
+    "MossyStoneBricks": {
+      "pcx": "MCMossyStoneBricks.pcx",
+      "preview": "MCMossyStoneBricks.png",
+      "transparent": false,
+      "source_files": [
+        "stonebrick_mossy.png"
+      ]
+    },
+    "CrackedStoneBricks": {
+      "pcx": "MCCrackedStoneBricks.pcx",
+      "preview": "MCCrackedStoneBricks.png",
+      "transparent": false,
+      "source_files": [
+        "stonebrick_cracked.png"
+      ]
+    },
+    "ChiseledStoneBricks": {
+      "pcx": "MCChiseledStoneBricks.pcx",
+      "preview": "MCChiseledStoneBricks.png",
+      "transparent": false,
+      "source_files": [
+        "stonebrick_carved.png"
+      ]
+    },
+    "BrownMushroomBlock": {
+      "pcx": "MCBrownMushroomBlock.pcx",
+      "preview": "MCBrownMushroomBlock.png",
+      "transparent": false,
+      "source_files": [
+        "mushroom_block_skin_brown.png"
+      ],
+      "special": "legacy mushroom block face states simplified to outside skin"
+    },
+    "RedMushroomBlock": {
+      "pcx": "MCRedMushroomBlock.pcx",
+      "preview": "MCRedMushroomBlock.png",
+      "transparent": false,
+      "source_files": [
+        "mushroom_block_skin_red.png"
+      ],
+      "special": "legacy mushroom block face states simplified to outside skin"
+    },
+    "Melon": {
+      "pcx": "MCMelon.pcx",
+      "preview": "MCMelon.png",
+      "transparent": false,
+      "source_files": [
+        "melon_side.png",
+        "melon_top.png"
+      ]
+    },
+    "Mycelium": {
+      "pcx": "MCMycelium.pcx",
+      "preview": "MCMycelium.png",
+      "transparent": false,
+      "source_files": [
+        "dirt.png",
+        "mycelium_side.png",
+        "mycelium_top.png"
+      ]
+    },
+    "NetherBrick": {
+      "pcx": "MCNetherBrick.pcx",
+      "preview": "MCNetherBrick.png",
+      "transparent": false,
+      "source_files": [
+        "nether_brick.png"
+      ]
+    },
+    "EndStone": {
+      "pcx": "MCEndStone.pcx",
+      "preview": "MCEndStone.png",
+      "transparent": false,
+      "source_files": [
+        "end_stone.png"
+      ]
+    },
+    "RedstoneLamp": {
+      "pcx": "MCRedstoneLamp.pcx",
+      "preview": "MCRedstoneLamp.png",
+      "transparent": false,
+      "source_files": [
+        "redstone_lamp_off.png"
+      ]
+    },
+    "LitRedstoneLamp": {
+      "pcx": "MCLitRedstoneLamp.pcx",
+      "preview": "MCLitRedstoneLamp.png",
+      "transparent": false,
+      "source_files": [
+        "redstone_lamp_on.png"
+      ]
+    },
+    "DoubleOakWoodSlab": {
+      "pcx": "MCDoubleOakWoodSlab.pcx",
+      "preview": "MCDoubleOakWoodSlab.png",
+      "transparent": false,
+      "source_files": [
+        "planks_oak.png"
+      ]
+    },
+    "DoubleSpruceWoodSlab": {
+      "pcx": "MCDoubleSpruceWoodSlab.pcx",
+      "preview": "MCDoubleSpruceWoodSlab.png",
+      "transparent": false,
+      "source_files": [
+        "planks_spruce.png"
+      ]
+    },
+    "DoubleBirchWoodSlab": {
+      "pcx": "MCDoubleBirchWoodSlab.pcx",
+      "preview": "MCDoubleBirchWoodSlab.png",
+      "transparent": false,
+      "source_files": [
+        "planks_birch.png"
+      ]
+    },
+    "DoubleJungleWoodSlab": {
+      "pcx": "MCDoubleJungleWoodSlab.pcx",
+      "preview": "MCDoubleJungleWoodSlab.png",
+      "transparent": false,
+      "source_files": [
+        "planks_jungle.png"
+      ]
+    },
+    "DoubleAcaciaWoodSlab": {
+      "pcx": "MCDoubleAcaciaWoodSlab.pcx",
+      "preview": "MCDoubleAcaciaWoodSlab.png",
+      "transparent": false,
+      "source_files": [
+        "planks_acacia.png"
+      ]
+    },
+    "DoubleDarkOakWoodSlab": {
+      "pcx": "MCDoubleDarkOakWoodSlab.pcx",
+      "preview": "MCDoubleDarkOakWoodSlab.png",
+      "transparent": false,
+      "source_files": [
+        "planks_big_oak.png"
+      ]
+    },
+    "EmeraldOre": {
+      "pcx": "MCEmeraldOre.pcx",
+      "preview": "MCEmeraldOre.png",
+      "transparent": false,
+      "source_files": [
+        "emerald_ore.png"
+      ]
+    },
+    "EmeraldBlock": {
+      "pcx": "MCEmeraldBlock.pcx",
+      "preview": "MCEmeraldBlock.png",
+      "transparent": false,
+      "source_files": [
+        "emerald_block.png"
+      ]
+    },
+    "CommandBlock": {
+      "pcx": "MCCommandBlock.pcx",
+      "preview": "MCCommandBlock.png",
+      "transparent": false,
+      "source_files": [
+        "command_block_back.png",
+        "command_block_front.png",
+        "command_block_side.png"
+      ],
+      "special": "animated source texture; use first frame when converting"
+    },
+    "RedstoneBlock": {
+      "pcx": "MCRedstoneBlock.pcx",
+      "preview": "MCRedstoneBlock.png",
+      "transparent": false,
+      "source_files": [
+        "redstone_block.png"
+      ]
+    },
+    "NetherQuartzOre": {
+      "pcx": "MCNetherQuartzOre.pcx",
+      "preview": "MCNetherQuartzOre.png",
+      "transparent": false,
+      "source_files": [
+        "quartz_ore.png"
+      ]
+    },
+    "QuartzBlock": {
+      "pcx": "MCQuartzBlock.pcx",
+      "preview": "MCQuartzBlock.png",
+      "transparent": false,
+      "source_files": [
+        "quartz_block_bottom.png",
+        "quartz_block_side.png",
+        "quartz_block_top.png"
+      ]
+    },
+    "ChiseledQuartzBlock": {
+      "pcx": "MCChiseledQuartzBlock.pcx",
+      "preview": "MCChiseledQuartzBlock.png",
+      "transparent": false,
+      "source_files": [
+        "quartz_block_chiseled.png",
+        "quartz_block_chiseled_top.png"
+      ]
+    },
+    "QuartzPillar": {
+      "pcx": "MCQuartzPillar.pcx",
+      "preview": "MCQuartzPillar.png",
+      "transparent": false,
+      "source_files": [
+        "quartz_block_lines.png",
+        "quartz_block_lines_top.png"
+      ]
+    },
+    "Dropper": {
+      "pcx": "MCDropper.pcx",
+      "preview": "MCDropper.png",
+      "transparent": false,
+      "source_files": [
+        "dropper_front_horizontal.png",
+        "furnace_side.png",
+        "furnace_top.png"
+      ]
+    },
+    "WhiteTerracotta": {
+      "pcx": "MCWhiteTerracotta.pcx",
+      "preview": "MCWhiteTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_white.png"
+      ]
+    },
+    "OrangeTerracotta": {
+      "pcx": "MCOrangeTerracotta.pcx",
+      "preview": "MCOrangeTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_orange.png"
+      ]
+    },
+    "MagentaTerracotta": {
+      "pcx": "MCMagentaTerracotta.pcx",
+      "preview": "MCMagentaTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_magenta.png"
+      ]
+    },
+    "LightBlueTerracotta": {
+      "pcx": "MCLightBlueTerracotta.pcx",
+      "preview": "MCLightBlueTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_light_blue.png"
+      ]
+    },
+    "YellowTerracotta": {
+      "pcx": "MCYellowTerracotta.pcx",
+      "preview": "MCYellowTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_yellow.png"
+      ]
+    },
+    "LimeTerracotta": {
+      "pcx": "MCLimeTerracotta.pcx",
+      "preview": "MCLimeTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_lime.png"
+      ]
+    },
+    "PinkTerracotta": {
+      "pcx": "MCPinkTerracotta.pcx",
+      "preview": "MCPinkTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_pink.png"
+      ]
+    },
+    "GrayTerracotta": {
+      "pcx": "MCGrayTerracotta.pcx",
+      "preview": "MCGrayTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_gray.png"
+      ]
+    },
+    "LightGrayTerracotta": {
+      "pcx": "MCLightGrayTerracotta.pcx",
+      "preview": "MCLightGrayTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_silver.png"
+      ]
+    },
+    "CyanTerracotta": {
+      "pcx": "MCCyanTerracotta.pcx",
+      "preview": "MCCyanTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_cyan.png"
+      ]
+    },
+    "PurpleTerracotta": {
+      "pcx": "MCPurpleTerracotta.pcx",
+      "preview": "MCPurpleTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_purple.png"
+      ]
+    },
+    "BlueTerracotta": {
+      "pcx": "MCBlueTerracotta.pcx",
+      "preview": "MCBlueTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_blue.png"
+      ]
+    },
+    "BrownTerracotta": {
+      "pcx": "MCBrownTerracotta.pcx",
+      "preview": "MCBrownTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_brown.png"
+      ]
+    },
+    "GreenTerracotta": {
+      "pcx": "MCGreenTerracotta.pcx",
+      "preview": "MCGreenTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_green.png"
+      ]
+    },
+    "RedTerracotta": {
+      "pcx": "MCRedTerracotta.pcx",
+      "preview": "MCRedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_red.png"
+      ]
+    },
+    "BlackTerracotta": {
+      "pcx": "MCBlackTerracotta.pcx",
+      "preview": "MCBlackTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay_stained_black.png"
+      ]
+    },
+    "AcaciaLeaves": {
+      "pcx": "MCAcaciaLeaves.pcx",
+      "preview": "MCAcaciaLeaves.png",
+      "transparent": true,
+      "source_files": [
+        "leaves_acacia.png"
+      ]
+    },
+    "DarkOakLeaves": {
+      "pcx": "MCDarkOakLeaves.pcx",
+      "preview": "MCDarkOakLeaves.png",
+      "transparent": true,
+      "source_files": [
+        "leaves_big_oak.png"
+      ]
+    },
+    "AcaciaLog": {
+      "pcx": "MCAcaciaLog.pcx",
+      "preview": "MCAcaciaLog.png",
+      "transparent": false,
+      "source_files": [
+        "log_acacia.png",
+        "log_acacia_top.png"
+      ]
+    },
+    "DarkOakLog": {
+      "pcx": "MCDarkOakLog.pcx",
+      "preview": "MCDarkOakLog.png",
+      "transparent": false,
+      "source_files": [
+        "log_big_oak.png",
+        "log_big_oak_top.png"
+      ]
+    },
+    "SlimeBlock": {
+      "pcx": "MCSlimeBlock.pcx",
+      "preview": "MCSlimeBlock.png",
+      "transparent": true,
+      "source_files": [
+        "slime.png"
+      ]
+    },
+    "Prismarine": {
+      "pcx": "MCPrismarine.pcx",
+      "preview": "MCPrismarine.png",
+      "transparent": false,
+      "source_files": [
+        "prismarine_rough.png"
+      ]
+    },
+    "PrismarineBricks": {
+      "pcx": "MCPrismarineBricks.pcx",
+      "preview": "MCPrismarineBricks.png",
+      "transparent": false,
+      "source_files": [
+        "prismarine_bricks.png"
+      ]
+    },
+    "DarkPrismarine": {
+      "pcx": "MCDarkPrismarine.pcx",
+      "preview": "MCDarkPrismarine.png",
+      "transparent": false,
+      "source_files": [
+        "prismarine_dark.png"
+      ]
+    },
+    "SeaLantern": {
+      "pcx": "MCSeaLantern.pcx",
+      "preview": "MCSeaLantern.png",
+      "transparent": false,
+      "source_files": [
+        "sea_lantern.png"
+      ]
+    },
+    "HayBale": {
+      "pcx": "MCHayBale.pcx",
+      "preview": "MCHayBale.png",
+      "transparent": false,
+      "source_files": [
+        "hay_block_side.png",
+        "hay_block_top.png"
+      ]
+    },
+    "Terracotta": {
+      "pcx": "MCTerracotta.pcx",
+      "preview": "MCTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "hardened_clay.png"
+      ]
+    },
+    "CoalBlock": {
+      "pcx": "MCCoalBlock.pcx",
+      "preview": "MCCoalBlock.png",
+      "transparent": false,
+      "source_files": [
+        "coal_block.png"
+      ]
+    },
+    "PackedIce": {
+      "pcx": "MCPackedIce.pcx",
+      "preview": "MCPackedIce.png",
+      "transparent": false,
+      "source_files": [
+        "ice_packed.png"
+      ]
+    },
+    "RedSandstone": {
+      "pcx": "MCRedSandstone.pcx",
+      "preview": "MCRedSandstone.png",
+      "transparent": false,
+      "source_files": [
+        "red_sandstone_bottom.png",
+        "red_sandstone_normal.png",
+        "red_sandstone_top.png"
+      ]
+    },
+    "ChiseledRedSandstone": {
+      "pcx": "MCChiseledRedSandstone.pcx",
+      "preview": "MCChiseledRedSandstone.png",
+      "transparent": false,
+      "source_files": [
+        "red_sandstone_bottom.png",
+        "red_sandstone_carved.png",
+        "red_sandstone_top.png"
+      ]
+    },
+    "SmoothRedSandstone": {
+      "pcx": "MCSmoothRedSandstone.pcx",
+      "preview": "MCSmoothRedSandstone.png",
+      "transparent": false,
+      "source_files": [
+        "red_sandstone_smooth.png"
+      ]
+    },
+    "DoubleRedSandstoneSlab": {
+      "pcx": "MCDoubleRedSandstoneSlab.pcx",
+      "preview": "MCDoubleRedSandstoneSlab.png",
+      "transparent": false,
+      "source_files": [
+        "red_sandstone_bottom.png",
+        "red_sandstone_normal.png",
+        "red_sandstone_top.png"
+      ]
+    },
+    "PurpurBlock": {
+      "pcx": "MCPurpurBlock.pcx",
+      "preview": "MCPurpurBlock.png",
+      "transparent": false,
+      "source_files": [
+        "purpur_block.png"
+      ]
+    },
+    "PurpurPillar": {
+      "pcx": "MCPurpurPillar.pcx",
+      "preview": "MCPurpurPillar.png",
+      "transparent": false,
+      "source_files": [
+        "purpur_pillar.png",
+        "purpur_pillar_top.png"
+      ]
+    },
+    "PurpurDoubleSlab": {
+      "pcx": "MCPurpurDoubleSlab.pcx",
+      "preview": "MCPurpurDoubleSlab.png",
+      "transparent": false,
+      "source_files": [
+        "purpur_block.png"
+      ]
+    },
+    "EndStoneBricks": {
+      "pcx": "MCEndStoneBricks.pcx",
+      "preview": "MCEndStoneBricks.png",
+      "transparent": false,
+      "source_files": [
+        "end_bricks.png"
+      ]
+    },
+    "RepeatingCommandBlock": {
+      "pcx": "MCRepeatingCommandBlock.pcx",
+      "preview": "MCRepeatingCommandBlock.png",
+      "transparent": false,
+      "source_files": [
+        "repeating_command_block_back.png",
+        "repeating_command_block_front.png",
+        "repeating_command_block_side.png"
+      ],
+      "special": "animated source texture; use first frame when converting"
+    },
+    "ChainCommandBlock": {
+      "pcx": "MCChainCommandBlock.pcx",
+      "preview": "MCChainCommandBlock.png",
+      "transparent": false,
+      "source_files": [
+        "chain_command_block_back.png",
+        "chain_command_block_front.png",
+        "chain_command_block_side.png"
+      ],
+      "special": "animated source texture; use first frame when converting"
+    },
+    "FrostedIce": {
+      "pcx": "MCFrostedIce.pcx",
+      "preview": "MCFrostedIce.png",
+      "transparent": true,
+      "source_files": [
+        "frosted_ice_0.png"
+      ],
+      "special": "uses stage 0; Minecraft has 4 crack stages"
+    },
+    "MagmaBlock": {
+      "pcx": "MCMagmaBlock.pcx",
+      "preview": "MCMagmaBlock.png",
+      "transparent": false,
+      "source_files": [
+        "magma.png"
+      ]
+    },
+    "NetherWartBlock": {
+      "pcx": "MCNetherWartBlock.pcx",
+      "preview": "MCNetherWartBlock.png",
+      "transparent": false,
+      "source_files": [
+        "nether_wart_block.png"
+      ]
+    },
+    "RedNetherBrick": {
+      "pcx": "MCRedNetherBrick.pcx",
+      "preview": "MCRedNetherBrick.png",
+      "transparent": false,
+      "source_files": [
+        "red_nether_brick.png"
+      ]
+    },
+    "BoneBlock": {
+      "pcx": "MCBoneBlock.pcx",
+      "preview": "MCBoneBlock.png",
+      "transparent": false,
+      "source_files": [
+        "bone_block_side.png",
+        "bone_block_top.png"
+      ]
+    },
+    "Observer": {
+      "pcx": "MCObserver.pcx",
+      "preview": "MCObserver.png",
+      "transparent": false,
+      "source_files": [
+        "observer_back.png",
+        "observer_front.png",
+        "observer_side.png",
+        "observer_top.png"
+      ]
+    },
+    "WhiteShulkerBox": {
+      "pcx": "MCWhiteShulkerBox.pcx",
+      "preview": "MCWhiteShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_white.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "OrangeShulkerBox": {
+      "pcx": "MCOrangeShulkerBox.pcx",
+      "preview": "MCOrangeShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_orange.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "MagentaShulkerBox": {
+      "pcx": "MCMagentaShulkerBox.pcx",
+      "preview": "MCMagentaShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_magenta.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "LightBlueShulkerBox": {
+      "pcx": "MCLightBlueShulkerBox.pcx",
+      "preview": "MCLightBlueShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_light_blue.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "YellowShulkerBox": {
+      "pcx": "MCYellowShulkerBox.pcx",
+      "preview": "MCYellowShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_yellow.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "LimeShulkerBox": {
+      "pcx": "MCLimeShulkerBox.pcx",
+      "preview": "MCLimeShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_lime.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "PinkShulkerBox": {
+      "pcx": "MCPinkShulkerBox.pcx",
+      "preview": "MCPinkShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_pink.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "GrayShulkerBox": {
+      "pcx": "MCGrayShulkerBox.pcx",
+      "preview": "MCGrayShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_gray.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "LightGrayShulkerBox": {
+      "pcx": "MCLightGrayShulkerBox.pcx",
+      "preview": "MCLightGrayShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_silver.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "CyanShulkerBox": {
+      "pcx": "MCCyanShulkerBox.pcx",
+      "preview": "MCCyanShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_cyan.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "PurpleShulkerBox": {
+      "pcx": "MCPurpleShulkerBox.pcx",
+      "preview": "MCPurpleShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_purple.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "BlueShulkerBox": {
+      "pcx": "MCBlueShulkerBox.pcx",
+      "preview": "MCBlueShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_blue.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "BrownShulkerBox": {
+      "pcx": "MCBrownShulkerBox.pcx",
+      "preview": "MCBrownShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_brown.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "GreenShulkerBox": {
+      "pcx": "MCGreenShulkerBox.pcx",
+      "preview": "MCGreenShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_green.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "RedShulkerBox": {
+      "pcx": "MCRedShulkerBox.pcx",
+      "preview": "MCRedShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_red.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "BlackShulkerBox": {
+      "pcx": "MCBlackShulkerBox.pcx",
+      "preview": "MCBlackShulkerBox.png",
+      "transparent": false,
+      "source_files": [
+        "shulker_top_black.png"
+      ],
+      "special": "1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+    },
+    "WhiteGlazedTerracotta": {
+      "pcx": "MCWhiteGlazedTerracotta.pcx",
+      "preview": "MCWhiteGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_white.png"
+      ]
+    },
+    "OrangeGlazedTerracotta": {
+      "pcx": "MCOrangeGlazedTerracotta.pcx",
+      "preview": "MCOrangeGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_orange.png"
+      ]
+    },
+    "MagentaGlazedTerracotta": {
+      "pcx": "MCMagentaGlazedTerracotta.pcx",
+      "preview": "MCMagentaGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_magenta.png"
+      ]
+    },
+    "LightBlueGlazedTerracotta": {
+      "pcx": "MCLightBlueGlazedTerracotta.pcx",
+      "preview": "MCLightBlueGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_light_blue.png"
+      ]
+    },
+    "YellowGlazedTerracotta": {
+      "pcx": "MCYellowGlazedTerracotta.pcx",
+      "preview": "MCYellowGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_yellow.png"
+      ]
+    },
+    "LimeGlazedTerracotta": {
+      "pcx": "MCLimeGlazedTerracotta.pcx",
+      "preview": "MCLimeGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_lime.png"
+      ]
+    },
+    "PinkGlazedTerracotta": {
+      "pcx": "MCPinkGlazedTerracotta.pcx",
+      "preview": "MCPinkGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_pink.png"
+      ]
+    },
+    "GrayGlazedTerracotta": {
+      "pcx": "MCGrayGlazedTerracotta.pcx",
+      "preview": "MCGrayGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_gray.png"
+      ]
+    },
+    "LightGrayGlazedTerracotta": {
+      "pcx": "MCLightGrayGlazedTerracotta.pcx",
+      "preview": "MCLightGrayGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_silver.png"
+      ]
+    },
+    "CyanGlazedTerracotta": {
+      "pcx": "MCCyanGlazedTerracotta.pcx",
+      "preview": "MCCyanGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_cyan.png"
+      ]
+    },
+    "PurpleGlazedTerracotta": {
+      "pcx": "MCPurpleGlazedTerracotta.pcx",
+      "preview": "MCPurpleGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_purple.png"
+      ]
+    },
+    "BlueGlazedTerracotta": {
+      "pcx": "MCBlueGlazedTerracotta.pcx",
+      "preview": "MCBlueGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_blue.png"
+      ]
+    },
+    "BrownGlazedTerracotta": {
+      "pcx": "MCBrownGlazedTerracotta.pcx",
+      "preview": "MCBrownGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_brown.png"
+      ]
+    },
+    "GreenGlazedTerracotta": {
+      "pcx": "MCGreenGlazedTerracotta.pcx",
+      "preview": "MCGreenGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_green.png"
+      ]
+    },
+    "RedGlazedTerracotta": {
+      "pcx": "MCRedGlazedTerracotta.pcx",
+      "preview": "MCRedGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_red.png"
+      ]
+    },
+    "BlackGlazedTerracotta": {
+      "pcx": "MCBlackGlazedTerracotta.pcx",
+      "preview": "MCBlackGlazedTerracotta.png",
+      "transparent": false,
+      "source_files": [
+        "glazed_terracotta_black.png"
+      ]
+    },
+    "WhiteConcrete": {
+      "pcx": "MCWhiteConcrete.pcx",
+      "preview": "MCWhiteConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_white.png"
+      ]
+    },
+    "OrangeConcrete": {
+      "pcx": "MCOrangeConcrete.pcx",
+      "preview": "MCOrangeConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_orange.png"
+      ]
+    },
+    "MagentaConcrete": {
+      "pcx": "MCMagentaConcrete.pcx",
+      "preview": "MCMagentaConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_magenta.png"
+      ]
+    },
+    "LightBlueConcrete": {
+      "pcx": "MCLightBlueConcrete.pcx",
+      "preview": "MCLightBlueConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_light_blue.png"
+      ]
+    },
+    "YellowConcrete": {
+      "pcx": "MCYellowConcrete.pcx",
+      "preview": "MCYellowConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_yellow.png"
+      ]
+    },
+    "LimeConcrete": {
+      "pcx": "MCLimeConcrete.pcx",
+      "preview": "MCLimeConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_lime.png"
+      ]
+    },
+    "PinkConcrete": {
+      "pcx": "MCPinkConcrete.pcx",
+      "preview": "MCPinkConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_pink.png"
+      ]
+    },
+    "GrayConcrete": {
+      "pcx": "MCGrayConcrete.pcx",
+      "preview": "MCGrayConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_gray.png"
+      ]
+    },
+    "LightGrayConcrete": {
+      "pcx": "MCLightGrayConcrete.pcx",
+      "preview": "MCLightGrayConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_silver.png"
+      ]
+    },
+    "CyanConcrete": {
+      "pcx": "MCCyanConcrete.pcx",
+      "preview": "MCCyanConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_cyan.png"
+      ]
+    },
+    "PurpleConcrete": {
+      "pcx": "MCPurpleConcrete.pcx",
+      "preview": "MCPurpleConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_purple.png"
+      ]
+    },
+    "BlueConcrete": {
+      "pcx": "MCBlueConcrete.pcx",
+      "preview": "MCBlueConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_blue.png"
+      ]
+    },
+    "BrownConcrete": {
+      "pcx": "MCBrownConcrete.pcx",
+      "preview": "MCBrownConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_brown.png"
+      ]
+    },
+    "GreenConcrete": {
+      "pcx": "MCGreenConcrete.pcx",
+      "preview": "MCGreenConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_green.png"
+      ]
+    },
+    "RedConcrete": {
+      "pcx": "MCRedConcrete.pcx",
+      "preview": "MCRedConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_red.png"
+      ]
+    },
+    "BlackConcrete": {
+      "pcx": "MCBlackConcrete.pcx",
+      "preview": "MCBlackConcrete.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_black.png"
+      ]
+    },
+    "WhiteConcretePowder": {
+      "pcx": "MCWhiteConcretePowder.pcx",
+      "preview": "MCWhiteConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_white.png"
+      ]
+    },
+    "OrangeConcretePowder": {
+      "pcx": "MCOrangeConcretePowder.pcx",
+      "preview": "MCOrangeConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_orange.png"
+      ]
+    },
+    "MagentaConcretePowder": {
+      "pcx": "MCMagentaConcretePowder.pcx",
+      "preview": "MCMagentaConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_magenta.png"
+      ]
+    },
+    "LightBlueConcretePowder": {
+      "pcx": "MCLightBlueConcretePowder.pcx",
+      "preview": "MCLightBlueConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_light_blue.png"
+      ]
+    },
+    "YellowConcretePowder": {
+      "pcx": "MCYellowConcretePowder.pcx",
+      "preview": "MCYellowConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_yellow.png"
+      ]
+    },
+    "LimeConcretePowder": {
+      "pcx": "MCLimeConcretePowder.pcx",
+      "preview": "MCLimeConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_lime.png"
+      ]
+    },
+    "PinkConcretePowder": {
+      "pcx": "MCPinkConcretePowder.pcx",
+      "preview": "MCPinkConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_pink.png"
+      ]
+    },
+    "GrayConcretePowder": {
+      "pcx": "MCGrayConcretePowder.pcx",
+      "preview": "MCGrayConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_gray.png"
+      ]
+    },
+    "LightGrayConcretePowder": {
+      "pcx": "MCLightGrayConcretePowder.pcx",
+      "preview": "MCLightGrayConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_silver.png"
+      ]
+    },
+    "CyanConcretePowder": {
+      "pcx": "MCCyanConcretePowder.pcx",
+      "preview": "MCCyanConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_cyan.png"
+      ]
+    },
+    "PurpleConcretePowder": {
+      "pcx": "MCPurpleConcretePowder.pcx",
+      "preview": "MCPurpleConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_purple.png"
+      ]
+    },
+    "BlueConcretePowder": {
+      "pcx": "MCBlueConcretePowder.pcx",
+      "preview": "MCBlueConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_blue.png"
+      ]
+    },
+    "BrownConcretePowder": {
+      "pcx": "MCBrownConcretePowder.pcx",
+      "preview": "MCBrownConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_brown.png"
+      ]
+    },
+    "GreenConcretePowder": {
+      "pcx": "MCGreenConcretePowder.pcx",
+      "preview": "MCGreenConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_green.png"
+      ]
+    },
+    "RedConcretePowder": {
+      "pcx": "MCRedConcretePowder.pcx",
+      "preview": "MCRedConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_red.png"
+      ]
+    },
+    "BlackConcretePowder": {
+      "pcx": "MCBlackConcretePowder.pcx",
+      "preview": "MCBlackConcretePowder.png",
+      "transparent": false,
+      "source_files": [
+        "concrete_powder_black.png"
+      ]
+    },
+    "StructureBlock": {
+      "pcx": "MCStructureBlock.pcx",
+      "preview": "MCStructureBlock.png",
+      "transparent": false,
+      "source_files": [
+        "structure_block.png"
+      ]
+    }
+  },
+  "warnings": [
+    "BrownMushroomBlock: legacy mushroom block face states simplified to outside skin",
+    "RedMushroomBlock: legacy mushroom block face states simplified to outside skin",
+    "CommandBlock: animated source texture; use first frame when converting",
+    "RepeatingCommandBlock: animated source texture; use first frame when converting",
+    "ChainCommandBlock: animated source texture; use first frame when converting",
+    "FrostedIce: uses stage 0; Minecraft has 4 crack stages",
+    "WhiteShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "OrangeShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "MagentaShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "LightBlueShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "YellowShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "LimeShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "PinkShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "GrayShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "LightGrayShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "CyanShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "PurpleShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "BlueShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "BrownShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "GreenShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "RedShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*",
+    "BlackShulkerBox: 1.12.2 shulker box body is tile-entity rendered; block texture directory only provides shulker_top_*"
+  ]
+}
