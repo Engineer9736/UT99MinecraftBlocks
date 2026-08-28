@@ -46,6 +46,12 @@ const GridSize = 64.0;
 var Pawn SpawnedBy;
 var() name PlaceSoundFamily;
 
+var MinecraftChunkLoader ChunkLoader;
+var int MinecraftX;
+var int MinecraftY;
+var int MinecraftZ;
+var bool bChunkRemovalReported;
+
 function float SnapToGrid(float V)
 {
     if (V >= 0)
@@ -91,7 +97,7 @@ function PostBeginPlay()
     GridLocation.Y = SnapToGrid(Location.Y);
     GridLocation.Z = SnapToGrid(Location.Z);
 
-    if (MinecraftChunkLoader(Owner) == None)
+	if (MinecraftChunkLoader(Owner) == None)
 	{
 		foreach AllActors(class'MinecraftBlock', B)
 		{
@@ -109,6 +115,34 @@ function PostBeginPlay()
 
     SetLocation(GridLocation);
     SetRotation(GridRotation);
+}
+
+function Destroyed()
+{
+    local MinecraftChunkLoader L;
+
+    L = ChunkLoader;
+
+    if (
+        L != None &&
+        !bChunkRemovalReported &&
+        !L.bDeleteMe
+    )
+    {
+        bChunkRemovalReported = True;
+
+        // Break the link first so nothing can report twice.
+        ChunkLoader = None;
+
+        L.BlockActorDestroyed(
+            MinecraftX,
+            MinecraftY,
+            MinecraftZ,
+            Self
+        );
+    }
+
+    Super.Destroyed();
 }
 
 function TakeDamage(
