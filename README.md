@@ -1,7 +1,7 @@
 This project is mostly made by just talking with ChatGPT, taking small steps and understanding what the next logic step will be, and making choices on the methodology. This is probably the future of software development anyway.
 
 Scripts:
-- mca_to_ini.py - Converts a Minecraft 1.12.2 chunk into MinecraftChunk.ini which can be loaded ingame with "summon MinecraftBlocks.MinecraftChunkLoader".
+- mca_to_ini.py - Converts a Minecraft 1.12.2 chunkfile into MinecraftChunk.ini which can be loaded ingame with "summon MinecraftBlocks.MinecraftChunkLoader".
 - generate_textures_to_textures.py - Convert the original Minecraft textures into PCX files that UT understands.
 - generate_classes.py - Generate all the block material classes like Cobblestone.uc
 
