@@ -5,7 +5,7 @@ This project is mostly made by just talking with ChatGPT, taking small steps and
 - summon MinecraftBlocks.MinecraftChunkLoader - Reads MinecraftChunk.ini to generate one chunk of blocks in the UT map.
 
 **Development scripts:**
-- mca_to_ini.py - Converts a Minecraft 1.12.2 chunkfile into MinecraftChunk.ini which can be loaded ingame with "summon MinecraftBlocks.MinecraftChunkLoader". Minecraft chunkfiles can be found in [Install dir]\saves\New World\region.
+- mca_to_ini.py - Converts a Minecraft 1.12.2 regionfile into MinecraftChunk.ini which can be loaded ingame with "summon MinecraftBlocks.MinecraftChunkLoader". Minecraft chunkfiles can be found in [Install dir]\saves\New World\region.
 - generate_textures_to_textures.py - Convert the original Minecraft textures into PCX files that UT understands. The original textures can be found in .minecraft\versions\1.12.2\1.12.2.jar, and then inside this jar in: assets\minecraft\textures\blocks\
 - generate_classes.py - Generate all the block material classes like Cobblestone.uc
 
